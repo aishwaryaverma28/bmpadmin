@@ -1,0 +1,122 @@
+.settings-container{
+  display:flex;
+}
+.setting-font-style {
+  color: #1e2224;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* side panel css  */
+
+.setting-side-panel {
+  width: 20vw;
+  height: auto;
+  background: #f8fbf8;
+  min-height: 100vh;
+
+
+}
+.go-back-btn button {
+  color: #33475b;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  padding-top: 1.19rem;
+  background-color: #f8fafb;
+  border: none;
+}
+
+.go-back-btn button span {
+  margin-left: 0.2rem;
+}
+
+.setting-heading {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.prefrence, .account-setup , .company-setup {
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.prefrence-options, .account-options, .company-options {
+  margin-left: 1rem;
+  /* padding-top:0.62rem; */
+  /* padding-bottom: 0.62rem; */
+  cursor: pointer;
+
+}
+
+
+.prefrence-options a,.account-options a, .company-options a, .master-settings-options a, .master-settings-options{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.875rem;
+  transition: color 0.3s ease-in-out;
+  text-align: left;
+  padding-top:0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 1.06rem;
+  padding-left: 1rem;
+    display: inline-block;
+  width:15rem;
+  font-family: "Lexend Deca", sans-serif;
+  color:#33475B;
+  margin-top: 0.5rem;
+}
+
+
+
+.setting-arrow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:17.5rem;
+}
+
+.setting-arrow img{
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+  max-width: none;
+  width: 1.5rem;
+  height:1.5rem;
+  cursor: pointer;
+}
+
+.master-arrow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:17.5rem;
+}
+
+.master-arrow img{
+  margin-right: 1rem;
+  max-width: none;
+  width: 1.5rem;
+  height:1.5rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.sub-sub-menu a{
+  padding-left: 2rem;
+}
+

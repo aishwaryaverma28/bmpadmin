@@ -1,0 +1,105 @@
+.helpHead {
+  padding: 0.5rem 1rem;
+}
+.helpHead > h2 {
+  color: #1e2224;
+  font-family: "Lexend Deca";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+}
+.helpBody {
+  padding: 0.5rem 1rem;
+  width: 65%;
+}
+.helpRight {
+  padding: 0.5rem 1rem;
+  width: 35%;
+  margin-top: 0.5rem;
+}
+.helpContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.helpTitle {
+  padding: 0.5rem 0;
+  color: #33475b;
+  font-family: "Lexend Deca";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+.helpBody input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #f3f6fa;
+}
+.helpBody textarea {
+  font-family: "Lexend Deca";
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #f3f6fa;
+}
+.siteBox {
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+}
+.siteHead {
+  border-bottom: 1px solid #dcdcdc;
+  padding: 0.5rem 1rem;
+}
+.siteHead h3 {
+  color: #1e2224;
+  font-family: "Lexend Deca";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+.SiteSelectBox {
+  font-size: 14px;
+  font-family: "Lexend Deca";
+  background: #f3f6fa;
+}
+
+.help-content-box select {
+  width: 100%;
+  border: none;
+  outline: rgb(59, 59, 59);
+  font-size: 16px;
+  color: #33475b;
+  font-family: "Lexend Deca";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+  border-radius: 0;
+}
+
+.help-bottom-btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; /* or justify-content: space-between; if you have multiple elements */
+  align-items: center;
+  padding: 1rem;
+  z-index: -1;
+  margin-top: 5rem;
+}
+
+.help-save {
+  margin-left: 1rem;
+}

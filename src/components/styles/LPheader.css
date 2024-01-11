@@ -1,0 +1,511 @@
+
+.nav {
+    height: auto;
+    width: 100%;
+    position: relative;
+    background: #1e2224;
+    display: flex;
+    padding: 0px 26px;
+    align-items: center;
+  }
+  
+  .nav > .navHeader > .navTitle {
+    /* display: inline-block; */
+    font-size: 1.5rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 10px 10px 0px;
+  }
+  
+   .nav > .navLinks {
+    display: flex;
+    font-size: 18px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .nav > .navLinks > .icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+    margin-left: 5rem;
+  }
+  
+  .nav > .navLinks > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  .searchBox {
+    /* border: 2px solid white; */
+    width: 422px;
+     display: flex;
+    }
+    .searchBtn {
+      background-color: transparent;
+      font-size: 18px;
+      padding: 6px 9px;
+      margin-right: -45px;
+      border: none;
+      color: #6c6c6c;
+      transition: all 0.4s;
+      z-index: 10;
+  }
+    .searchInput {
+      width: 100%;
+      font-family: 'Lexend Deca', sans-serif;
+      font-size: 0.875rem;
+      font-weight: 400;
+      padding: 8px 15px 8px 45px;
+      background-color: #35383e;
+      color: #86878a;
+      border-radius: 50px;
+      border: none;
+      transition: all 0.4s;
+  }
+  .searchInput:focus {
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 12px #b8c6db;
+    -moz-box-shadow: 0 1px 12px #b8c6db;
+    -webkit-box-shadow: 0 1px 12px #b8c6db;
+  }
+  .plusBtn {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #f49c00;
+    border: none;
+    cursor: pointer;
+  }
+.fa-plus {
+  font-weight: 900;
+  font-size: 1rem;
+}
+.bellBtn, .helpBtn{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1.25rem;
+  color: #dadbe0;
+}
+.settingBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1.25rem;
+  color: #dadbe0;
+}
+.bellBtn:hover,
+.helpBtn:hover,
+.settingBtn:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #f49c00;
+  transition: all 800ms ease-in-out;
+}
+
+
+.userImg {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+   position: relative;
+}
+
+.borderLeft {
+  width: 1px;
+  height: auto;
+  margin-right: 30px;
+}
+.userImg img {
+  /* width: 40px; */
+  height: 40px;
+}
+.userImg p {
+  color: #FFF;
+font-family: "Lexend Deca";
+font-size: 1rem;
+font-weight: 500;
+margin-left: 1rem;
+}
+.userImg p span {
+  color: #86878A;
+font-family: "Lexend Deca";
+font-size: 0.75rem;
+font-weight: 400;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+.navLinks.open {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+.nav > #navCheck {
+  display: none;
+}
+
+  @media (max-width: 768px) {
+    .nav > .navBtn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .navBtn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+      margin-top: 8px;
+    }
+    .nav > .navBtn > label:hover,
+    .nav #nav-check:checked ~ .nav-btn > label {
+      background-color: #1e2224;
+    }
+    .nav > .navBtn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .navLinks {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 65px;
+      left: 0px;
+    }
+    .nav > .navLinks > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #navCheck:not(:checked) ~ .navLinks {
+      height: 0px;
+    }
+    .nav > #navCheck:checked ~ .navLinks {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+      z-index: 11111111111;
+      display: flex;
+      /* justify-content: center; */
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .nav > .userImg {
+      margin: 0 auto;
+    }
+  }
+
+  
+/* Bottom Nav Start*/
+
+.navbar input[type='checkbox'],
+.navbar .hamburgerLines {
+  display: none;
+}
+
+.navbar {
+  /* position: fixed; */
+  width: 100%;
+  background: #fff;
+  color: #1e2224;
+  opacity: 0.85;
+  /* z-index: 100; */
+  padding: 0px;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 8px 30px;
+}
+
+.navbarContainer {
+  display: flex;
+  gap: 12rem;
+  /* padding: 1rem 0; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuItems {
+  display: flex;
+  margin-left: 1.5rem;
+}
+.logo {
+   width: 8rem;
+}
+
+.menuItems li {
+  list-style: none;
+  font-size: 16px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.navbar a {
+  color: #444;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.875rem;
+  transition: color 0.3s ease-in-out;
+  padding: 10px 20px;
+}
+
+.navbar .activeNav {
+  color: #1e2224;
+  background: #d2e9f3;
+}
+
+.navbar a:hover {
+  color: #1e2224;
+  background: #d2e9f3;
+}
+
+.logoutDropdown{
+z-index: 10;
+width: 17.625rem;
+height: 27.1875rem;
+border-radius: 0.3125rem;
+border: 1px solid #DCDCDC;
+background: #FFF;
+/* Card shadow */
+box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.05);
+position: absolute;
+right: 22px;
+top: 3.2rem;
+}
+
+.logUserInfo{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 16px;
+  padding-left: 16px;
+}
+.crmUserInfoName{
+  color: #1E2224;
+font-family: Lexend Deca;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.02563rem
+}
+.crmUserInfo p{
+  color: #33475B;
+font-family: Lexend Deca;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.02563rem;
+}
+.logUserInfo img{
+  width: 3.5rem;
+height: 3.5rem;
+border-radius: 50%;
+}
+.profileNPref{
+  text-align: center;
+  padding: 1rem;
+  color: #2B74DA;
+font-family: Lexend Deca;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.02563rem;
+border-bottom:0.0625rem solid #DCDCDC;
+}
+.userId{
+padding: 1rem;
+font-family: Lexend Deca;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.02563rem;
+border-bottom:0.0625rem solid #DCDCDC;
+}
+.userId p{
+  padding: 0.55rem 0.5rem;
+  color: #33475B;
+font-family: Lexend Deca;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.02563rem;
+}
+.signOutDiv{
+  display: flex;
+  justify-content: space-between;
+}
+.signOutDiv p{
+  padding:0.8rem 1rem;
+  /* border: 2px solid red; */
+  color: #2B74DA;
+  font-family: Lexend Deca;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+}
+.signOutDiv p:hover{
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .navbar {
+    opacity: 0.95;
+  }
+
+  .navbarContainer input[type="checkbox"],
+  .navbarContainer .hamburgerLines {
+    display: block;
+  }
+
+  .navbarContainer {
+    display: block;
+    position: relative;
+    height: 64px;
+    width: 100%;
+  }
+  .navbar .menuItems.open {
+    transform: translateX(0);
+  }
+
+  .navbarContainer input[type="checkbox"] {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 30px;
+    top: 20px;
+    left: 0px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .navbarContainer .hamburgerLines {
+    display: block;
+    height: 28px;
+    width: 35px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .navbarContainer .hamburgerLines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #333;
+  }
+
+  .navbarContainer .hamburgerLines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navbarContainer .hamburgerLines .line2 {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .navbarContainer .hamburgerLines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navbar .menuItems {
+    padding-top: 100px;
+    background: #fff;
+    height: 100vh;
+    max-width: 300px;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    /* padding-left: 40px; */
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 5px 0px 10px 0px #aaa;
+    overflow: scroll;
+  }
+
+  .navbar .menuItems li {
+    margin-bottom: 0px;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  .logo {
+    position: absolute;
+    top: 20px;
+    right: -14px;
+  }
+
+  .navbarContainer input[type="checkbox"]:checked ~ .menu-items {
+    transform: translateX(0);
+  }
+
+  .navbarContainer input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+  }
+
+  .navbarContainer input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+  }
+
+  .navbarContainer input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+  }
+
+  .navbar a {
+    width: 100%;
+    display: inline-block;
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbarContainer input[type="checkbox"]:checked ~ .logo {
+    display: none;
+  }
+}
+/* Bottom Nav End */
+/* Nav End */
+
+  
+  .BMPlogo{
+    height: 1.3rem;
+  }

@@ -1,0 +1,838 @@
+.user-team-font {
+  color: #1e2224;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:focus {
+  border: 1px solid rgb(127, 126, 126);
+}
+
+/* general css ends  */
+
+/* setting container css  starts */
+
+.user-team-container {
+  width: 80vw;
+  height: auto;
+}
+
+/* top user and team button section starts here  */
+
+
+
+
+.user-team-active {
+  color: #2B74DA !important;
+  border: 1px solid #2B74DA !important;
+}
+
+.user-team-setting-btn .user-team-btn {
+  color: #33475B;
+  padding: 7px 15px;
+  border-radius: 0.3125rem;
+  background-color: #fff;
+  border: 1px solid transparent;
+  font-family: "Lexend Deca", sans-serif;
+
+}
+
+.user-team-setting-btn {
+  margin-left: 1rem;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.05);
+  display: inline-flex;
+  margin-top: 1.44rem;
+}
+
+
+/* top user and team button section ends here  */
+
+/* top message display starts here  */
+
+.top-msg-display {
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* top message display ends here  */
+
+/* search and user button css starts here  */
+
+.search-box {
+  position: relative;
+  display: inline-block;
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+}
+
+.search-input {
+  padding: 0.94rem 1rem;
+  padding-right: 5rem;
+  width: 18.75rem;
+  height: 2rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+}
+
+.search-input::placeholder {
+  color: #909db0;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 0.5rem;
+  transform: translateY(-50%);
+  width: 0 0.875rem;
+  height: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.81rem;
+}
+
+.search-user-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-export {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-export p {
+  color: #1e2224;
+  margin-left: 0.31rem;
+}
+
+.create-user-btn {
+  padding: 7px 15px;
+  border-radius: 0.3125rem;
+  background: #077838;
+  border: 1px solid transparent;
+  color: #fff;
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+}
+
+.create-user-btn:hover {
+  border: 1px solid #077838;
+  color: #077838;
+  background-color: #fff;
+  transition: all 400ms ease-in-out;
+}
+
+.export-user-btn {
+  padding: 7px 15px;
+  border-radius: 0.3125rem;
+  border: 1px solid transparent;
+  background-color: #fff;
+
+  display: flex;
+  align-items: center;
+
+}
+
+.export-user-btn:hover {
+  /* border: 1px solid #077838; */
+  color: #fff;
+  background-color: #077838;
+  transition: all 400ms ease-in-out;
+}
+
+.export-user-btn img {
+  margin-right: 0.21rem;
+}
+
+/* search and user button css ends here  */
+
+.user-table {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 1.5rem;
+}
+
+.user-table table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #DCDCDC;
+
+  background: #F8FAFB;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #DCDCDC;
+  padding: 0 0.5rem;
+  /* text-align: left; */
+}
+
+.user-table td {
+  background-color: #fff;
+}
+
+
+
+.user-table th:nth-child(1) {
+  width: 1%;
+}
+
+
+
+.user-table th:nth-child(2) {
+  width: 36%;
+}
+
+.user-table th:nth-child(3) {
+  width: 18%;
+}
+
+.user-table th:nth-child(4) {
+  width: 26%;
+}
+
+
+
+.user-table th {
+  background-color: #F8FAFB;
+
+  color: #1E2224;
+
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: uppercase;
+}
+
+/* .user-table input[class="cb1"] {
+  transform: scale(1.5);
+  /* Increase checkbox size */
+/* cursor: pointer; */
+
+
+/* Hide the default checkbox */
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Style the custom checkbox */
+.custom-checkbox .checkmark {
+  position: relative;
+  display: inline-block;
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 1px solid #dcdcdc;
+  background-color: transparent;
+  border-radius: 0.125rem;
+  cursor: pointer;
+}
+
+/* Create the tick mark using the :after pseudo-element */
+.custom-checkbox .checkmark:after {
+  content: "✓";
+  /* Unicode character for a checkmark */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Center the tick mark */
+  font-size: 14px;
+  color: #2B74DA;
+  opacity: 0;
+}
+
+/* Show the tick mark when the checkbox is checked */
+.custom-checkbox input:checked~.checkmark:after {
+  opacity: 1;
+}
+
+/* Change the background color of the checkbox when it is checked */
+.custom-checkbox input:checked~.checkmark {
+  background-color: #F3F6FA;
+  border: 1px solid #2B74DA;
+
+}
+
+/* Preserve original padding and margin on the label text */
+.custom-checkbox {
+  display: inline-flex;
+  align-items: center;
+  margin: 10px;
+}
+
+
+
+.user-table .name-info {
+  display: flex;
+  align-items: center;
+  justify-items: left;
+}
+
+.user-table .name-info p {
+  margin-right: 0.31rem;
+  color: #1E2224;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: uppercase;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.user-table .arrow-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-table .arrow-up,
+.user-table .arrow-down {
+  width: 0.775rem;
+  height: 0.775rem;
+
+  margin-bottom: -2px;
+}
+
+
+
+.user-table .user-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-table .usericon-name-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.user-table .usericon-name-email .user-name-info p:last-child {
+  color: #33475b;
+  font-size: 0.75rem;
+  text-transform: lowercase;
+  margin-right: 1rem;
+}
+
+
+.user-table .select-action {
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  padding: 0.4rem;
+  /* margin: 0.75rem 0; */
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.userActionDrop{
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  padding: 0.4rem;
+  cursor: pointer;
+  margin-right: 1rem;
+  display: flex;
+}
+.user-table .user-icon-round {
+  border-radius: 50%;
+  background-color: #e2e9f2;
+  padding: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+.user-table .user-icon-round img {
+  width: 1rem;
+  height: 1rem;
+  margin: 0 auto;
+
+}
+
+.user-table .user-name-value {
+
+
+  color: #1E2224;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+
+.user-table td:nth-child(2),
+.user-table td:nth-child(3),
+.user-table td:nth-child(4) {
+  border-right: 1px solid transparent;
+
+}
+
+
+
+/* Sample modal styles */
+.modalUserOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  font-family: "Lexend Deca";
+}
+
+.userModal {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  width:28rem;
+  height: 35rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.modal-close {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modalHeading {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.modalHeading p,
+.modalHeading span {
+  color: #1E2224;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+
+}
+
+.createUserForm {
+  padding: 20px;
+}
+
+.inputDiv label {
+  color: #1E2224;
+  font-family: "Lexend Deca";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+
+.inputDiv input {
+  margin: 0.2rem 0;
+  padding: 0.4rem;
+  width: 23rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #C0C6CC;
+  background: #FFF;
+}
+
+.inputDiv {
+  margin-bottom: 0.5rem;
+}
+
+.submitBtnBox {
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.userCancelBtn {
+  border-radius: 0.3125rem;
+  border: 1px solid #DCDCDC;
+  background: #FFF;
+}
+
+.userSubBtn {
+  cursor: pointer;
+  padding: 7px 15px;
+  border-radius: 0.3125rem;
+  background: #077838;
+  border: 1px solid transparent;
+  color: #fff;
+  margin-left: 0.5rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+
+.userSubBtn:hover {
+  border: 1px solid #077838;
+  color: #077838;
+  background-color: #fff;
+  transition: all 400ms ease-in-out;
+}
+
+.userCancelBtn {
+  padding: 7px 15px;
+  border-radius: 0.3125rem;
+  background-color: #fff;
+  border: 1px solid #DCDCDC;
+}
+
+.userCancelBtn:hover {
+  color: #fff;
+  background-color: #077838;
+  transition: all 400ms ease-in-out;
+}
+
+
+/* team css  */
+
+
+
+
+button {
+  cursor: pointer;
+}
+
+input:focus {
+  border: 1px solid rgb(127, 126, 126);
+}
+
+/* general css ends  */
+
+/* setting container css  starts */
+
+.team-container {
+  width: 80vw;
+  height: auto;
+}
+
+/* top user and team button section starts here  */
+
+.user-btn {
+  border-radius: 0.3125rem;
+  border: 1px solid #2b74da;
+  background: #fff;
+  color: #2b74da;
+  font-size: 1rem;
+  padding: 0.94rem 1.56rem;
+  margin-left: 1rem;
+  margin-top: 1.44rem;
+  width: 5.865rem;
+}
+
+.user-btn:hover {
+  color: #ffffff;
+  background: #2b74da;
+  border: 1px solid #2b74da;
+  transition: all 400ms ease-in-out;
+}
+
+.team-btn {
+  color: #33475b;
+  font-size: 1rem;
+  border-radius: 0.3125rem;
+  background: #fff;
+  padding: 0.94rem 1.56rem;
+  border: 1px solid transparent;
+  margin-left: -0.2rem;
+}
+
+/* top user and team button section ends here  */
+
+/* top message display starts here  */
+
+
+
+.top-msg-display p {
+  color: #33475B;
+}
+
+/* top message display ends here  */
+
+/* search and user button css starts here  */
+
+
+.user-export {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.user-export p {
+  color: #1e2224;
+  margin-left: 0.31rem;
+}
+
+
+
+/* search and user button css ends here  */
+
+/* no team added section  */
+
+.no-team-added {
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 15.44rem;
+}
+
+.no-team-added p {
+  color: #000;
+  font-size: 1.125rem;
+}
+
+.no-team-para {
+  color: #000;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.125rem;
+
+}
+
+/* no team added section ends here  */
+
+/* setting-container css ends  */
+
+/* team css ends */
+
+
+
+
+/* Sample modal styles */
+.teamContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  /* align-items: center; */
+  justify-content: end;
+  font-family: "Lexend Deca";
+}
+
+.teamModal {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  width: 38.5rem;
+  height: auto;
+}
+
+.modal-close {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modalHeading {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.modalHeading p,
+.modalHeading span {
+  color: #1E2224;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+
+}
+
+.createUserForm {
+  padding: 20px;
+}
+
+.inputDiv label {
+  color: #1E2224;
+  font-family: "Lexend Deca";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+
+.inputDiv input,
+.team-select-box {
+  margin: 0.2rem 0;
+  padding: 0.4rem;
+  width: 23rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #C0C6CC;
+  background: #FFF;
+}
+
+.inputDiv {
+  margin-bottom: 0.5rem;
+}
+
+.submitBtnBox {
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.userCancelBtn {
+  border-radius: 0.3125rem;
+  border: 1px solid #DCDCDC;
+  background: #FFF;
+}
+
+.userSubBtn {
+  cursor: pointer;
+  padding: 7px 15px;
+  border-radius: 0.3125rem;
+  background: #077838;
+  border: 1px solid transparent;
+  color: #fff;
+  margin-left: 0.5rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+
+.userSubBtn:hover {
+  border: 1px solid #077838;
+  color: #077838;
+  background-color: #fff;
+  transition: all 400ms ease-in-out;
+}
+
+.userCancelBtn {
+  padding: 7px 15px;
+  border-radius: 0.3125rem;
+  background-color: #fff;
+  border: 1px solid #DCDCDC;
+}
+
+.userCancelBtn:hover {
+  color: #fff;
+  background-color: #077838;
+  transition: all 400ms ease-in-out;
+}
+
+.teamModal form .teamInput input {
+  margin-bottom: 1.38rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.team-select-box {
+  width: 100%;
+  cursor: pointer;
+}
+
+.team-input-descrition {
+  margin-bottom: 2.25rem;
+}
+
+.team-member-available {
+  color: #1E2224;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+
+}
+
+.team-member-list ul li {
+  list-style: none;
+}
+
+.team-list-checkbox {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.team-member-name {
+  color: #1E2224;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  text-transform: capitalize;
+}
+
+
+.user-team-dropdown-position{
+  left: 0;
+}
+
+.create-user-pwd-input{
+  padding-right: 2rem !important;
+}
+
+.create-user-input-wrapper{
+  position: relative;
+}
+
+.create-user-toggle-button{
+  position: absolute;
+top: 52%;
+transform: translateY(-50%);
+right:3rem;
+cursor: pointer;
+border:none;
+background-color: var(--th-background);
+}
+
+.active-inactive{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.user-team-refresh-icon{
+  position: absolute;
+  top:40%;
+  right: 0;
+}
+
+

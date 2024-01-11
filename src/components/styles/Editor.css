@@ -1,0 +1,249 @@
+main {
+  margin-bottom: 2rem;
+}
+.dashboard {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+}
+.block {
+  border: 1px solid #dcdcdc;
+  padding: 15px 15px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.2);
+  width: 21rem;
+}
+.calender {
+  box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.2);
+}
+.react-calendar {
+  border: none !important;
+}
+.announcement-content {
+  display: flex;
+  gap: 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.2);
+}
+.dashboardLeft {
+  display: flex;
+}
+.announcementHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 15px 15px 0px;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 10px;
+}
+.announcement-content > img {
+  width: 43%;
+}
+.announcementHeading > h2 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Lexend Deca";
+  color: #1e2224;
+}
+.view-btn {
+  text-transform: capitalize;
+  padding: 7px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lexend Deca";
+  border-radius: 5px;
+  border: 1px solid #077838;
+  background: #077838;
+  color: #ffffff;
+}
+.view-btn:hover {
+  color: #077838;
+  background: #ffffff;
+  border: 1px solid #077838;
+  transition: all 800ms ease-in-out;
+}
+.announcementContent > ul > li {
+  margin: 20px 5px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  color: #86878a;
+}
+.announcementContent > ul > li > a {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Lexend Deca", sans-serif;
+  color: #86878a;
+  text-transform: capitalize;
+}
+.bg-active {
+  background: #e2e9f2;
+}
+.announcementContent > ul > li:hover {
+  background: #e2e9f2;
+  transition: all 0.4s ease-in-out;
+}
+.announcementContent > ul > .bg-active > a,
+.announcementContent > ul > li > a:hover {
+  color: #2b74da;
+}
+
+.ceoMessage > h2 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Lexend Deca";
+  color: #1e2224;
+  margin-bottom: 0.2rem;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 10px;
+}
+.ceoMessage > hr {
+  height: 1px;
+  background: #dcdcdc;
+  opacity: 1;
+}
+.ceoMessage > p {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Lexend Deca", sans-serif;
+  color: #86878a;
+  line-height: 23px;
+  margin: 10px 0px;
+}
+.ceoMessage > span {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Lexend Deca", sans-serif;
+  color: #1e2224;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: right;
+}
+.blockCalender {
+  border: 1px solid #dcdcdc;
+  padding: 15px 15px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.2);
+  width: 21rem;
+  padding: 30px 15px;
+  border-radius: 5px;
+}
+.blockCalender > h2 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Lexend Deca";
+  color: #1e2224;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 0.8rem;
+}
+.calenderContent > p {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Lexend Deca", sans-serif;
+  color: #1e2224;
+  text-transform: capitalize;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.calenderContent .bg-active {
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin: 5px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Lexend Deca";
+  color: #2b74da;
+}
+.calenderContent .bg-active > a,
+.calendarLi > a:hover {
+  color: #2b74da;
+}
+.calendarLi {
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin: 5px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Lexend Deca";
+  color: #1e2224;
+}
+.calendarLi:hover {
+  background: #e2e9f2;
+  transition: all 0.4s ease-in-out;
+  color: #2b74da;
+}
+.companyPeople > h2,
+.links > h2 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Lexend Deca";
+  color: #1e2224;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 0.8rem;
+}
+.companyPeople > ul > li {
+  display: flex;
+  padding: 1rem 0;
+  border-bottom: 1px solid #dcdcdc;
+}
+.companyPeople > ul > li > img {
+  margin-right: 1rem;
+}
+.companyPeople > ul > li > p {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Lexend Deca", sans-serif;
+  color: #1e2224;
+}
+.companyPeople > ul > li > p > span {
+  color: #86878a;
+  font-size: 14px;
+}
+.link-details > ul > li > a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.link-details > ul > li > a > p {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Lexend Deca";
+  color: #1e2224;
+}
+.link-details > ul > li :hover {
+  background: #e2e9f2;
+  transition: all 0.5s ease-in-out;
+}
+@media (max-width: 800px) {
+  .dashboard {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .announcement-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}

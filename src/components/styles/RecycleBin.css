@@ -1,0 +1,540 @@
+.recycle-fonts {
+    font-family: "Lexend Deca", sans-serif;
+    color: #1E2224;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02563rem;
+    text-transform: capitalize;
+}
+
+
+.recycle-container {
+    width: 80vw;
+    height: 64rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.recycle-top {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recycle-top-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.recycle-heading {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.recycle-note {
+    color: #909DB0;
+}
+
+.default-days {
+    color: #33475B;
+    margin-right: 0.5rem;
+}
+
+.default-days-select {
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.3125rem;
+    border: 1px solid #DCDCDC;
+    background: #F3F6FA;
+    outline: none;
+
+}
+
+
+.recycle-active {
+    color: #2B74DA !important;
+    border: 1px solid #2B74DA !important;
+}
+
+.recycle-setting-btn .recycle-btn {
+    color: #335b38;
+    padding: 7px 15px;
+    border-radius: 0.3125rem;
+    background-color: #fff;
+    border: 1px solid transparent;
+    font-family: "Lexend Deca", sans-serif;
+    cursor: pointer;
+}
+
+.recycle-setting-btn {
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.05);
+    display: inline-flex;
+    margin-top: 1.5rem;
+
+}
+
+
+.recycle-search-box {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+
+}
+
+.recycle-search-input {
+    padding: 0.94rem 1rem;
+    padding-right: 2.5rem;
+    width: 14.5rem;
+    height: 2rem;
+    border-radius: 0.3125rem;
+    outline: none;
+    border-radius: 0.3125rem;
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+}
+
+.recycle-search-input::placeholder {
+    color: #909db0;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02563rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.94rem;
+}
+
+.recycle-search-icon {
+    position: absolute;
+    top: 50%;
+    right: 0rem;
+    transform: translateY(-50%);
+    width: 1.25rem;
+    height: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.81rem;
+}
+
+
+.recycle-search-user-section {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 1.5rem;
+}
+
+.recycle-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recycle-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* date css */
+
+
+
+
+
+
+.date-input-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+
+.delete-icon {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.date-to {
+    color: #33475B;
+    text-transform: lowercase;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+}
+
+/* date css ends */
+
+.recycle-delete {
+    color: #FFF;
+    border-radius: 0.3125rem;
+    background: #D83C38;
+    padding: 7px 15px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 1px solid transparent;
+    height: 2rem;
+}
+
+.inactive-delete{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.recycle-delete:hover {
+    border: 1px solid #D83C38;
+    color: #D83C38;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.recycle-restore {
+    color: #FFF;
+    border-radius: 0.3125rem;
+    padding: 7px 15px;
+    border: 1px solid transparent;
+    background: #077838;
+    height: 2rem;
+}
+
+.recycle-restore:hover {
+    border: 1px solid #077838;
+    color: #077838;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+input.recycle-date-input {
+    border-radius: 0.3125rem;
+    border: 1px solid #DCDCDC;
+    background: #F3F6FA;
+    color: #33475B;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02563rem;
+    text-transform: capitalize;
+    padding: 0.3rem 0.75rem;
+    padding-left: 2rem;
+    font-family: "Lexend Deca", sans-serif;
+    outline: none;
+    cursor: pointer;
+    height: 2rem;
+    width: 10rem;
+
+}
+
+/* table css */
+
+
+.recycle-list-table {
+    width: 100%;
+    margin-right: 1rem;
+
+}
+
+
+.recycle-table {
+    margin-top: 1rem;
+
+
+}
+
+.recycle-table table {
+    border-collapse: collapse;
+    border: 1px solid #DCDCDC;
+    background: #F8FAFB;
+    border: 1px solid red;
+
+}
+
+
+
+.recycle-table th,
+.recycle-table td {
+    padding: 0 0.5rem;
+    border: 1px solid #DCDCDC;
+    text-align: left;
+}
+
+
+
+#recycle-border {
+    border: 1px solid #DCDCDC;
+
+
+}
+
+.recycle-table td {
+    background-color: #fff;
+    text-align: left;
+    color: #1E2224;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02563rem;
+    text-transform: capitalize;
+}
+
+
+
+.recycle-table th:nth-child(1) {
+    width: 1%;
+}
+
+.recycle-table th:nth-child(2) {
+    width: 45%;
+}
+
+.recycle-table th:nth-child(3) {
+    width: 18%;
+}
+
+.recycle-table th:nth-child(4) {
+    width: 18%;
+}
+
+.recycle-table th:nth-child(5) {
+    width: 18%;
+}
+
+
+
+
+.recycle-table th {
+    background-color: #F8FAFB;
+    text-align: left;
+    font-family: "Lexend Deca", sans-serif;
+    color: #1E2224;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.02563rem;
+    text-transform: uppercase;
+
+}
+
+
+.recycle-list-table th:first-child,
+.recycle-list-table td:first-child,
+.recycle-list-table th:nth-child(2),
+.recycle-list-table td:nth-child(2),
+.recycle-list-table th:nth-child(3),
+.recycle-list-table td:nth-child(3),
+.recycle-list-table th:nth-child(4),
+.recycle-list-table td:nth-child(4) {
+    border-right: 1px solid transparent;
+
+}
+
+
+
+
+
+
+/* .recycle-table input[class="cb1"] {
+    transform: scale(1.5);
+    /* Increase checkbox size */
+/* cursor: pointer; */
+
+
+/* Hide the default checkbox */
+.custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Style the custom checkbox */
+.custom-checkbox .checkmark {
+    position: relative;
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 1px solid #dcdcdc;
+    background-color: transparent;
+    border-radius: 0.125rem;
+    cursor: pointer;
+}
+
+/* Create the tick mark using the :after pseudo-element */
+.custom-checkbox .checkmark:after {
+    content: "✓";
+    /* Unicode character for a checkmark */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Center the tick mark */
+    font-size: 14px;
+    color: #2B74DA;
+    opacity: 0;
+}
+
+/* Show the tick mark when the checkbox is checked */
+.custom-checkbox input:checked~.checkmark:after {
+    opacity: 1;
+}
+
+/* Change the background color of the checkbox when it is checked */
+.custom-checkbox input:checked~.checkmark {
+    background-color: #F3F6FA;
+    border: 1px solid #2B74DA;
+
+}
+
+/* Preserve original padding and margin on the label text */
+.custom-checkbox {
+    display: inline-flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.no-data-found{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    position: relative;
+    left:-2.5rem;
+    color:#D83C38;
+}
+
+
+
+/* table css ends */
+
+
+/* recycle pop up starts here  */
+
+.recycle-popup-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+
+}
+
+.recycle-popup-container {
+    background-color: #fff;
+    width: 28.125rem;
+    height: auto;
+    margin: 0 auto;
+}
+   
+
+.recycle-popup-box{
+    padding: 1rem 1.75rem;
+}
+
+
+.restore-records {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.selected-records-note {
+    color: #33475B;
+    font-size: 0.75rem;
+    margin-bottom: 1.75rem;
+}
+
+.restore-questions {
+    margin-bottom: 2.62rem;
+    color: #33475B;
+    font-size: 0.875rem;
+}
+
+.recycle-popup-btn{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-radius: 0rem 0rem 0.3125rem 0.3125rem;
+    background: #F8FAFB;
+    padding: 1rem 2rem;
+}
+
+.restore-yes{
+    color: #FFF;
+    border-radius: 0.3125rem;
+background: #077838;
+padding: 7px 15px;
+border: 1px solid transparent;
+margin-left: 0.75rem;
+cursor: pointer;
+}
+
+.restore-yes:hover{
+    color:#077838;
+    background-color: #fff;
+    border: 1px solid #077838;
+    transition: all 0.5s ease-in-out;
+}
+
+.restore-no{
+    border-radius: 0.3125rem;
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+
+.restore-no:hover{
+    border:1px solid #D83C38;
+    background-color: #D83C38;
+    color:#fff;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.restore-delete{
+    color: #FFF;
+    border-radius: 0.3125rem;
+background: #D83C38;
+padding: 7px 15px;
+border: 1px solid transparent;
+margin-left: 0.75rem;
+cursor: pointer;
+}
+
+.restore-delete:hover{
+    color:#D83C38;
+    background-color: #fff;
+    border: 1px solid #D83C38;
+    transition: all 0.5s ease-in-out;
+}
+/* recycle pop up ends here  */
+
+/* refresh button   */
+
+.recycle-refresh-icon{
+    color:var(--font-dark);
+    margin-left: 0.5rem;
+}
+/* refresh button ends */

@@ -1,0 +1,426 @@
+/* header css */
+
+.registration-font-style {
+  line-height: 1.1875em;
+  text-transform: capitalize;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.main-nav {
+  padding: 12px 7.5rem;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.login-hamburgur1 {
+  font-size: 48px;
+  color: #51bff0;
+  display: none;
+}
+
+.registration-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.registration-navbar-side {
+  display: none;
+}
+
+.registration-navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.registration-navbar ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.1875em;
+  text-transform: capitalize;
+  color: #000000;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 0 18px;
+}
+
+.registration-navbar ul li a:hover {
+  color: #51bff0;
+  border-bottom: 2px solid #51bff0;
+  padding-bottom: 3px;
+}
+
+.registration-active {
+  color: #51bff0 !important;
+  border-bottom: 2px solid #51bff0;
+  padding-bottom: 3px !important;
+}
+
+.register-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.registration-nav-logo img {
+  width: 4.3125rem;
+  max-width: 100%;
+  height: auto;
+  /* margin-left: 7rem; */
+}
+
+.fee-trial {
+  background-color: #51bff0;
+  border: 1px solid #51bff0;
+  color: #fff;
+  border-radius: 100px;
+  cursor: pointer;
+  margin-left: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+  min-width: 148px;
+  font-size: 15px;
+  line-height: 1.5em;
+  text-align: center;
+  /* padding: 8px 32px 8px 48px; */
+  padding-right: 40px;
+  text-align: left;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  font-family: "Lexend Deca", sans-serif;
+  z-index: 0;
+}
+
+.fee-trial:hover {
+  color: #51bff0;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.four-min-demo {
+  background-color: #f49c00;
+  color: #fff;
+  border: 1px solid #f49c00;
+  border-radius: 100px;
+  cursor: pointer;
+  padding-right: 25px;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: #f49c00;
+  border: 1px solid #f49c00;
+  color: #fff;
+  border-radius: 100px;
+  cursor: pointer;
+
+  min-width: 148px;
+  font-size: 15px;
+  line-height: 1.5em;
+  padding-right: 40px;
+  text-align: left;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  z-index: 0;
+}
+
+.four-min-demo:hover {
+  background-color: #fff;
+  color: #f49c00;
+  transition: all 0.5s ease-in-out;
+}
+
+.register-arrow {
+  background-color: rgba(225, 225, 225, 0.5);
+  color: #fff;
+  padding: 12px;
+  height: 100%;
+  border-radius: 100px;
+  /* margin:1px; */
+  margin-right: 10px;
+}
+
+.help-email {
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: -12px;
+}
+
+/* navbar css ends here  */
+
+/* footer css  */
+
+/* footer1 css starts here  */
+
+.registration-footer1 {
+  background-color: #36454f;
+  color: white;
+  text-align: center;
+  /* max-width: 1440px; */
+  margin: 0 auto;
+}
+
+.registration-footer-active {
+  color: #51bff0 !important;
+}
+
+.footer-contact p:first-child {
+  margin-bottom: 1.125rem;
+  padding: 0;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 5rem;
+  font-size: 1.5rem;
+}
+.footer-contact p:last-child {
+  margin-bottom: 1.875rem;
+  padding: 0;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1rem;
+}
+
+.footer-follow p {
+  margin-bottom: 1.125rem;
+  padding: 0;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+
+.footer-media {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  background: #51bff0;
+  color: #fff;
+  margin-bottom: 1.875rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-twitter{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.footer-media-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-media:hover {
+  background-color: #f49c00;
+}
+
+.fa-twitter.footer-media {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.footer-nav-item ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.875rem;
+  flex-wrap: wrap;
+}
+.footer-nav-item ul li {
+  border-right: 1px solid white;
+  padding: 0 1rem;
+  font-size: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+}
+
+.footer-nav-item ul li:last-child {
+  border-right: none;
+}
+
+.footer-nav-item ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 0 4px;
+}
+
+.footer-nav-item ul li a:hover {
+  color: #51bff0;
+}
+
+.footer-desc {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.footer-desc p {
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+  color: #fff;
+}
+
+.award-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.footer-img-fluid {
+  max-width: 100%;
+  height: auto;
+  padding: 0 10px;
+}
+
+/* footer1 css ends here  */
+
+/* footer2 css starts here  */
+
+.registration-footer2 {
+  background: #5b6772;
+  padding: 1.5rem 6rem;
+
+  margin: 0 auto;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 1.5rem;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.footer-bottom p {
+  color: #fff;
+}
+
+.footer-bottom span {
+  color: #f49c00;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 2px solid #f49c00;
+}
+
+/* footer2 css ends here  */
+
+/* nav bar responsiveness media query  */
+
+@media only screen and (max-width: 1250px) {
+  .registration-navbar {
+    display: none;
+  }
+
+  .login-hamburgur1 {
+    display: block;
+  }
+
+  .registration-navbar-side .login-hamburgur2 {
+    display: block;
+    float: right;
+    padding-right: 15px;
+    padding-top: 15px;
+    font-size: 36px;
+    color: white;
+  }
+
+  .registration-navbar-side {
+    background: #36454f;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 290px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    right: 0;
+    margin: 0;
+    /* display: block; */
+    z-index: 999999;
+    margin-top: 12px;
+  }
+
+  .registration-navbar-side ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: start;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+
+  .registration-navbar-side ul li {
+    padding: 14px 20px;
+    display: inline-block;
+    width: 100%;
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+  }
+  .registration-navbar-side ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.1875em;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    font-family: "Lexend Deca", sans-serif;
+  }
+
+  .register-button {
+    justify-content: start;
+    align-items: start;
+    margin: 0 14px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+
+  .fee-trial {
+    margin-left: 0rem;
+  }
+
+  .four-min-demo {
+    margin-left: 0rem;
+    margin-bottom: 14px;
+  }
+
+  /* nav bar responsiveness media query  ends here */
+}
+
+@media only screen and (max-width: 1250px) {
+  .main-nav {
+    padding: 12px 4rem;
+  }
+}

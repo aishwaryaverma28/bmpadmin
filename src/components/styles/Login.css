@@ -1,0 +1,270 @@
+/* middle portion css starts here  */
+
+/* left side css starts here  */
+
+.main-registration {
+  display: grid;
+  grid-template-columns: auto auto;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.free-trial-section {
+  margin-left: 7.5rem;
+}
+
+.free-trial-section img {
+  width: 100%;
+}
+
+.trial-content {
+  border: 1px solid red;
+}
+
+.free-trial-heading {
+  padding-top: 7rem;
+  color: #06386c;
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin: 0 0 1.625rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.no-credit {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Lexend Deca", sans-serif;
+  margin-bottom: 1.625rem;
+}
+
+.day-trial {
+  color: #1e1e1e;
+  font-size: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+  margin: 0 0 18px;
+}
+
+.data-load ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.data-load ul li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 18px;
+  color: #1e1e1e;
+  font-size: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+  margin: 0 0 18px;
+  line-height: 1.5rem;
+}
+
+.data-load ul li::after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  border: 1px solid #f49c00;
+  background: #f49c00;
+  /* opacity: 0.3; */
+  border-radius: 50%;
+}
+
+.looking-support {
+  color: #1e1e1e;
+  font-size: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+  margin: 0 0 18px;
+  line-height: 1.5rem;
+}
+
+.looking-support span {
+  color: #f49c00;
+  border-bottom: 2px solid #f49c00;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.help-email {
+  font-weight: 600;
+  margin-top: -1rem;
+}
+
+/* left side css ends here  */
+
+/* right side css starts here  */
+
+.login-form-section {
+  margin-top: 7rem;
+  margin-right: 7.5rem;
+  margin-left: 4rem;
+  padding: 2.25rem 2.875rem;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  /* height: 33.5rem; */
+  margin-bottom: 4rem;
+}
+
+.login-form-heading {
+  color: #06386c;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin: 0 0 1.625rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.login-form-heading span {
+  color: #f49c00;
+}
+
+.login-page-fields label {
+  color: #656e7a;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.login-form-input {
+  width: 100%;
+  border: 1px solid #51bff0;
+  outline: none;
+  padding: 11px;
+  border-radius: 7px;
+  font-size: 1rem;
+  margin-bottom: 1.313rem;
+  cursor: pointer;
+  margin-top: 0.3rem;
+  outline: none;
+}
+
+.login-forget-password {
+  text-align: right;
+  color: #f49c00;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.login-continue-btn {
+  width: 100%;
+  border: 1px solid #51bff0;
+  background-color: #51bff0;
+  padding: 15px 0;
+  border-radius: 7px;
+  font-size: 1.25rem;
+  margin-bottom: 1.313rem;
+  cursor: pointer;
+  color: white;
+  margin-top: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.login-continue-btn:hover {
+  background-color: #347fa1;
+  transition: all 0.5s ease-in-out;
+}
+
+.login-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2rem;
+  margin-top: 1rem;
+}
+
+.login-checkbox label {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #656e7a;
+  padding-left: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #656e7a;
+}
+
+/*right side css ends here  */
+
+/* middle portion css ends here  */
+
+@media only screen and (max-width: 1250px) {
+  .free-trial-section {
+    width: auto;
+    margin-right: 4rem;
+  }
+
+  .login-form-section {
+    width: auto;
+    margin-right: 4rem;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .main-registration {
+    grid-template-columns: auto;
+  }
+
+  .free-trial-heading {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .login-form-section {
+    margin-top: 0rem;
+  }
+
+  .free-trial-section {
+    margin-left: 4rem;
+  }
+
+  /* .free-trial-section img{
+    width:50%;
+    } */
+
+  .login-form-section {
+    margin-left: 4rem;
+  }
+
+  .main-nav {
+    padding: 12px 4rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .login-form-section {
+    height: auto;
+  }
+}
+
+
+.otpBoxNum{
+  width: 3.125rem;
+border-radius: 0.3125rem;
+border: 1px solid #DCDCDC;
+background: #FFF;
+padding: 0.8rem 0.5rem;
+margin-top: 0.5rem;
+margin-right: 0.5rem;
+margin-bottom: 0.5rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+/* input[type=number] {
+  -moz-appearance: textfield;
+} */

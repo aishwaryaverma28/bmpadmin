@@ -1,0 +1,18 @@
+.cs-container {
+    width: 80vw;
+    height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.cs-heading {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: var(--font-large);
+
+}
+
+.cs-tabs{
+    margin-left: 0;
+    margin-top: 0;
+}

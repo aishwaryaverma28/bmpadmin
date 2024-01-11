@@ -1,0 +1,96 @@
+.restore-comment {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.selected-comment {
+    color: #33475B;
+    font-size: 0.75rem;
+    /* margin-bottom: 1rem; */
+}
+.box-border{
+margin: 1rem 1.75rem;
+padding: 1rem;
+border-radius: 0.3125rem;
+border: 1px solid #DCDCDC;
+/* background: var(--White, #FFF); */
+}
+.comment-head{    
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.review-rating{
+    margin: 0 0.5rem;
+    font-size: 0.875rem;
+    font-size: 0.875rem;
+    padding: 0 0.5rem;
+    border-radius: 3.125rem;
+background: #F3F6FA;
+}
+.comment-save{
+    margin-left: 0.5rem;
+}
+.redAlert{
+    color: rgb(190, 4, 4);
+}
+.batchErrorLable{
+    display: flex;
+    justify-content: space-between;
+}
+.replysContainer{
+    height: 8rem;
+    overflow-y: scroll;
+}
+
+.replysContainer.expanded {
+    height: 15rem;
+}
+
+.replysContainer.collapsed {
+    height: 8rem;
+}
+.replyName{
+    /* border: 2px solid red; */
+    border-left: 1px solid #DCDCDC;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+.reply-head{
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.bmpTab2ImgSection{
+    margin-left: 1rem;
+}
+/* Style for the autocomplete dropdown */
+.relativeInput{
+    position: relative;
+}
+.autocomplete-dropdown {
+    position: absolute;
+    width: 100%;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+    z-index: 1000;
+  }
+  
+  /* Style for each suggestion item in the dropdown */
+  .autocomplete-dropdown div {
+    padding: 10px;
+    cursor: pointer;
+  }
+  .autocomplete-dropdown li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  /* Highlight the suggestion item on hover */
+  .autocomplete-dropdown div:hover {
+    background-color: #f2f2f2;
+  }

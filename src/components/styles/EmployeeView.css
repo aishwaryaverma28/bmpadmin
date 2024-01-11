@@ -1,0 +1,164 @@
+.searchBar {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Lexend Deca";
+  color: #565c5f;
+}
+.searchBar input {
+  border: 1px solid #b9c7ce;
+  border-radius: 5px;
+  padding: 0.2rem;
+  color: #565c5f;
+}
+.addBtn {
+  cursor: pointer;
+  border: 1px solid #dcdcdc;
+  background: #ffffff;
+  color: #2b74da;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: capitalize;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.addBtn:hover {
+  color: #ffffff;
+  background-color: #2b74da;
+  transition: all 0.8s ease-in-out;
+}
+.selectSec {
+  cursor: pointer;
+  border: 1px solid #dcdcdc;
+  background: #ffffff;
+  color: #565c5f;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: capitalize;
+  padding: 10px 15px;
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+.entries {
+  border: 1px solid #b9c7ce;
+  border-radius: 5px;
+  padding: 0.2rem;
+  color: #565c5f;
+}
+.entriesLable {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Lexend Deca";
+  color: #565c5f;
+  margin: 1rem;
+}
+.buttonBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  align-items: center;
+}
+.tableContainer {
+  padding: 1.5rem;
+}
+table,
+th,
+td {
+  border: 1px solid #d3d6d6;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 0.6rem 0.8rem;
+}
+table tr {
+  height: 50px; /* Set the desired height for the table rows */
+}
+
+th {
+  font-size: 14px;
+  font-weight: 800;
+  font-family: "Lexend Deca", sans-serif;
+  color: #565c5f;
+  text-transform: uppercase;
+  padding: 15px;
+}
+tr:hover {
+  background-color: rgb(238, 235, 235);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.sectionCount {
+  width: 2rem;
+}
+.routeRedirect a {
+  color: #2b74da;
+}
+.routeRedirect {
+  text-align: center;
+  width: 20rem;
+}
+.employeeName a {
+  color: #2b74da;
+}
+.employeeName {
+  text-align: center;
+  width: 20rem;
+}
+.employeeId {
+  width: 5rem;
+  text-align: center;
+}
+.employeeDate {
+  width: 8rem;
+  text-align: center;
+}
+.pagination {
+  /* border: 2px solid #565c5f; */
+  display: flex;
+  justify-content: right;
+}
+.paginationContent {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.prevBtn {
+  margin: 0 1rem;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: none;
+  color: #565c5f;
+}
+.numBtn {
+  padding: 0.5rem;
+}
+.addressTd {
+  padding: 0;
+}
+.address {
+  max-width: 7.5rem;
+  max-height: 3.5rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.back-to-user button {
+  color: #33475b;
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  border: none;
+  font-size: 0.75rem;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.back-to-user button span {
+  margin-left: 0.31rem;
+}

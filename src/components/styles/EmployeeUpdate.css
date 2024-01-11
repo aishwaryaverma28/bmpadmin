@@ -1,0 +1,228 @@
+.addEmployeeFrom {
+  border: 1px solid #dcdcdc;
+  margin: 0.8rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.formDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.rightForm {
+  width: 49%;
+}
+.leftForm {
+  width: 48%;
+}
+.fromFiled {
+  display: flex;
+  align-items: center;
+}
+.fromFiled label {
+  color: #1e2224;
+  font-size: 15px;
+  font-family: "Lexend Deca";
+  text-transform: capitalize;
+  min-width: 150px;
+  font-weight: 600;
+}
+
+.fromFiled label span {
+  color: #f66a6a;
+}
+
+.fromFiled input {
+  /* width: 6%; */
+  color: #1e2224;
+  font-weight: 600;
+  /* margin-left: 5px; */
+  border: 1px solid #dcdcdc;
+  outline: rgb(59, 59, 59);
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: "Lexend Deca";
+  padding: 0.8rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.fromFiled input:focus {
+  border: 1px solid rgb(127, 126, 126);
+}
+.fromFiled input:hover {
+  background-color: rgb(227, 225, 225);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.fromFiled select {
+  width: 100%;
+  color: #1e2224;
+  font-weight: 600;
+  /* margin-left: 5px; */
+  border: 1px solid #dcdcdc;
+  outline: rgb(59, 59, 59);
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: "Lexend Deca";
+  padding: 0.8rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.fromFiled option {
+  color: #1e2224;
+  font-weight: 600;
+  /* margin-left: 5px; */
+  border: 1px solid #dcdcdc;
+  outline: rgb(59, 59, 59);
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: "Lexend Deca";
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.fromFiled select:focus {
+  border: 1px solid rgb(127, 126, 126);
+}
+.fromFiled select:hover {
+  background-color: rgb(227, 225, 225);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.fromFiled textarea {
+  min-width: 330px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  outline: rgb(59, 59, 59);
+  background-color: #ffffff;
+  padding: 10px;
+  font-size: 14px;
+  font-family: "Lexend Deca", sans-serif;
+  color: #1e2224;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.fromFiled textarea:focus {
+  border: 1px solid rgb(127, 126, 126);
+}
+.fromFiled textarea:hover {
+  background-color: rgb(227, 225, 225);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.secondaryBtn {
+  padding: 11px 23px;
+  font-size: 16px;
+  font-family: "Lexend Deca";
+  border-radius: 10px;
+  border: 1px solid #077838;
+  background: #077838;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.secondaryBtn:hover {
+  color: #077838;
+  background: #ffffff;
+  border: 1px solid #077838;
+  transition: all 800ms ease-in-out;
+}
+.closeBtn {
+  cursor: pointer;
+  padding: 11px 23px;
+  font-size: 16px;
+  font-family: "Lexend Deca";
+  border-radius: 10px;
+  border: none;
+  background: #2b74da;
+  color: #ffffff;
+  font-weight: 500;
+}
+.closeBtn a {
+  color: #ffffff;
+}
+
+.saveBtnRight {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.updateMsg {
+  color: #077838;
+  font-size: 15px;
+  font-family: "Lexend Deca";
+  text-transform: capitalize;
+  min-width: 150px;
+  font-weight: 600;
+  text-align: center;
+  animation: blink 1s linear infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .leftForm {
+    width: 100%;
+  }
+  .rightForm {
+    width: 100%;
+  }
+  .fromFiled {
+    flex-wrap: wrap;
+  }
+  .fromFiled label {
+    width: 25%;
+  }
+  .fromFiled input {
+    width: 70%;
+  }
+  .fromFiled textarea {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .fromFiled label {
+    width: 95%;
+    margin-bottom: 1rem;
+  }
+  .fromFiled input {
+    width: 95%;
+  }
+  .fromFiled textarea {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .fromFiled textarea {
+    min-width: 80%;
+  }
+}
+
+.saveBtnRight > .cancleBtn {
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Lexend Deca", sans-serif;
+  color: #1e2224;
+  font-weight: 500;
+  text-transform: capitalize;
+  background: #ffffff;
+  padding: 7px 15px;
+  margin: 0 1rem;
+}
+
+.saveBtnRight > .cancleBtn:hover {
+  border: 1px solid #d83c38;
+  color: #ffffff;
+  background: #d83c38;
+  transition: all 0.8s ease-in-out;
+}

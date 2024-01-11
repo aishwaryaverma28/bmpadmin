@@ -1,0 +1,85 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  width: 21%;
+  background: #ffffff;
+  color: #1e2224;
+  transition: all 0.3s;
+  /* border-right: 1px solid #dcdcdc; */
+  font-family: "Lexend Deca";
+  height: 100vh;
+}
+
+.sidebarOpen {
+  transform: translateX(0%);
+}
+
+.container {
+  width: 79%;
+  border-left: 1px solid #dcdcdc;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 95%;
+    padding: 0 2rem;
+  }
+  .sidebarOpen {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    transform: translateX(-100%);
+    transition: all 0.3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .hamburger {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+    cursor: pointer;
+  }
+}
+
+.headerEditor {
+  /* backdrop-filter: blur(6px); */
+  background: #1e2224;
+  padding: 16px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.headerEditor h2 {
+  font-family: "Lexend Deca";
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+}

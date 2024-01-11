@@ -1,0 +1,54 @@
+
+
+.ip-exp-heading{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.imp-data{
+    color:#33475B;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.sample-download{
+    color:var(--primary);
+    margin-right: 1rem;
+}
+
+.sample-download:hover{
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.import-tab-btn button:last-child{
+    margin-right: 1rem;
+} 
+
+.import-tab-btn{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.import-tab-table{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.import-tab-table table th{
+    text-align: left;
+    background-color: #F3F6FA;
+    font-weight: 600;
+}
+
+.import-tab-table table td{
+    border-right: 1px solid transparent;
+}
+.import-tab-table table td:last-child{
+    border-right: 1px solid #d3d6d6;
+}

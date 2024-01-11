@@ -1,0 +1,182 @@
+.cp-top{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+.cp-checkbox input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.cp-table th{
+  padding: 0;
+  margin: 0;
+  background: var(--th-background);
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.cp-table th:first-child{
+  width: 1%;
+}
+
+.cp-table td{
+  background-color: var(--white);
+}
+
+/* Style the custom checkbox */
+.cp-checkbox .checkmark {
+  position: relative;
+  display: inline-block;
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 1px solid #dcdcdc;
+  background-color: transparent;
+  border-radius: 0.125rem;
+  cursor: pointer;
+}
+
+/* Create the tick mark using the :after pseudo-element */
+.cp-checkbox .checkmark:after {
+  content: "✓";
+  /* Unicode character for a checkmark */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Center the tick mark */
+  font-size: 14px;
+  color: #2B74DA;
+  opacity: 0;
+}
+
+
+.cp-checkbox input:checked~.checkmark:after {
+  opacity: 1;
+}
+
+
+.cp-checkbox input:checked~.checkmark {
+  background-color: #f3f6fa;
+  border: 1px solid #2B74DA;
+
+}
+
+.cp-checkbox {
+  display: inline-flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.cp-action{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cp-action p, .cp-code{
+  color: var(--ternary);
+}
+
+/* product pop up starts  */
+
+.product-popup-container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  overflow-y: auto;
+}
+
+.product-popup-box {
+  background-color: var(--white);
+  width: 30.625rem;
+  height: 100vh;
+  z-index: 3;
+  position: relative;
+  overflow-y: auto;
+
+}
+
+.add-product-heading{
+  font-size: var(--font-bigger);
+  font-weight: 500;
+  padding:1.5rem 1rem;
+  border-bottom:1px solid var(--border-color);
+}
+
+
+
+.product-popup-fields{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.product-popup-content{
+  padding: 1rem;
+  
+}
+
+.product-popup-content label{
+  margin-bottom: 0.5rem;
+  color: var(--font-light);
+}
+
+.product-popup-content input, .product-popup-content select{
+  margin-bottom: 1rem;
+  
+}
+
+.product-popup-content input::placeholder{
+  color:var(--font-lighter);
+}
+
+.product-two-input{
+  width:28rem;
+}
+
+.postal-input{
+  text-transform: uppercase;
+}
+
+.product-popup-input, .product-popup-select{
+  width:13.68rem;
+}
+
+.product-popup-select{
+  padding:0;
+  margin: 0;
+  margin-left: 0.5rem;
+}
+
+.product-popup-save{
+  margin-left: 1rem;
+}
+
+.product-popup-bottom{
+  padding: 1rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  margin-bottom: -1rem;
+  margin-top: 2rem;
+}
+
+.company-address-result{
+  margin-top: -1rem;
+}
+
+/* product popup start ends */
+
+.product-dropdown-menu{
+  left:0;
+  width:8rem;
+}

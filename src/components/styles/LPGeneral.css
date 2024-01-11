@@ -1,0 +1,1003 @@
+.genral-setting-fonts {
+  color: #1e2224;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:focus {
+  border: 1px solid rgb(127, 126, 126);
+}
+
+.genral-setting-container {
+  width: 80vw;
+  height: 56.81rem;
+}
+
+.genral-setting-container .genral-heading {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.genral-active {
+  color: #2b74da !important;
+  border: 1px solid #2b74da !important;
+}
+
+.genral-setting-btn .genral-btn {
+  color: #33475b;
+  padding: 7px 15px;
+  border-radius: 0.3125rem;
+  background-color: #fff;
+  border: 1px solid transparent;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.genral-setting-btn {
+  margin-left: 1rem;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.05);
+  display: inline-flex;
+  margin-bottom: 2rem;
+}
+
+.genral-user p {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.genral-image {
+  position: relative;
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100px;
+  background-color: #f3f6fa;
+  margin-left: 2.28rem;
+}
+
+.genral-image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.genral-setting-form {
+  margin-top: 2rem;
+}
+
+.genral-form-division {
+  display: flex;
+}
+
+.genral-form-section1 {
+  margin-left: 1rem;
+  margin-right: 2.75rem;
+}
+
+.genral-form-division label {
+  color: #33475b;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.genral-form-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.genral-form-input,
+.genral-form-select {
+  margin-bottom: 2.12rem;
+  width: 28rem;
+  height: 2.6875rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #f3f6fa;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.genral-form-select {
+  padding: 0;
+  padding-left: 1rem;
+}
+
+.genral-timezone {
+  margin-bottom: 0.5rem;
+}
+
+.timezone-note {
+  color: #909db0;
+  font-family: Lexend Deca;
+  font-size: 0.75rem;
+}
+
+.genral-language {
+  margin-top: 2.12rem;
+}
+
+.general-page-btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.general-save-btn {
+  padding: 7px 15px;
+  border-radius: 0.3125rem;
+  background: #077838;
+  border: 1px solid transparent;
+  color: #fff;
+  margin-right: 2rem;
+  margin-left: 0.81rem;
+  font-family: Lexend Deca;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+
+.general-save-btn:hover {
+  background-color: #fff;
+  color: #077838;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #077838;
+}
+
+.general-discard-btn {
+  padding: 7px 15px;
+  border-radius: 0.3125rem;
+  background: #fff;
+  border: 1px solid transparent;
+  color: #fff;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  color: #1e2224;
+  font-family: Lexend Deca;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+
+.general-discard-btn:hover {
+  background-color: #077838;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #077838;
+}
+
+.disabledBtn {
+  padding: 8px 20px;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 7px 15px;
+  border-radius: 0.3125rem;
+  border: 1px solid #f3f6fa;
+  background: #f3f6fa;
+  color: #909daf;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+  margin-left: 1rem;
+}
+
+.genral-setting-btn .genral-btn {
+  color: #33475b;
+  padding: 7px 15px;
+  border-radius: 0.3125rem;
+  background-color: #fff;
+  border: 1px solid transparent;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.genral-setting-btn {
+  margin-left: 1rem;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.05);
+  display: inline-flex;
+  margin-bottom: 2rem;
+}
+
+.contact-sync-para {
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.add-contact-sync-btn {
+  border-radius: 0.3125rem;
+  background: #077838;
+  color: #fff;
+  padding: 7px 15px;
+  border: 1px solid transparent;
+  /* margin-top: 1rem; */
+  margin-left: 1rem;
+}
+
+.add-contact-sync-btn:hover {
+  border: 1px solid #077838;
+  color: #077838;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.email-sync-content {
+  margin-left: 1rem;
+}
+
+.email-sync-content p {
+  margin-bottom: 1.5rem;
+  color: #1e2224;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+}
+
+.email-sync-list {
+  list-style: none;
+  color: #33475b;
+}
+
+.email-sync-list li {
+  margin-bottom: 1.75rem;
+}
+
+.email-sync-list li span:first-child {
+  /* border:1px solid red; */
+  border-radius: 50%;
+  padding: 0.1rem 0.3rem;
+  background-color: #f3f6fa;
+  margin-right: 0.32rem;
+}
+
+.general-sync-note {
+  color: #1e241e;
+}
+
+.connect-email-btn {
+  border-radius: 0.3125rem;
+  background: #077838;
+  color: #fff;
+  padding: 7px 15px;
+  border: 1px solid transparent;
+  margin-top: 1rem;
+}
+
+.connect-email-btn:hover {
+  border: 1px solid #077838;
+  color: #077838;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+/* refresh button  */
+
+.general-refresh {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.genral-refresh-icon {
+  margin-right: 1rem;
+  color: var(--font-dark);
+}
+
+/* activity css  */
+
+.activity-tab {
+  margin-left: 0rem;
+}
+
+.log-meeting {
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  padding: 7px 15px;
+}
+
+.call-btn-active {
+  background: var(--Selected-State, #e2e9f2);
+  border: none;
+  margin-left: 1rem;
+}
+
+.activity-call-btn {
+  margin-left: 0;
+}
+
+input.activity-date-input {
+  width: 12rem;
+  height: 2.125rem;
+  padding: 0.75rem;
+  padding-left: 40px;
+  font-size: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.activity-date-wrapper {
+  display: flex;
+  align-items: center;
+  width: 12rem;
+  height: 2.125rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+}
+.activity-date-wrapper-2 {
+  display: flex;
+  align-items: center;
+  width: 8rem;
+  height: 2.125rem;
+  border-radius: 0.3125rem;
+  border: none;
+  background: #fff;
+}
+
+.activity-calender-icon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.activity-label {
+  color: #909db0;
+  font-size: 0.75rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.activity-time-travel {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.activity-select {
+  margin-left: 2rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  height: 2.125rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
+}
+
+.activity-label-2 {
+  margin-left: 2rem;
+}
+
+.activity-text {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.activity-text-area {
+  border-radius: 0.3125rem;
+  border: 1px solid var(--Stroke, #dcdcdc);
+  background: #f4f5f9;
+  width: 30.5rem;
+  height: 5.8125rem;
+  padding: 0;
+  vertical-align: top;
+  outline: none;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+.activity-select-area {
+  border-radius: 0.3125rem;
+  border: 1px solid var(--Stroke, #dcdcdc);
+  background: #f4f5f9;
+  width: 30.5rem;
+  height: 2rem;
+  vertical-align: top;
+  outline: none;
+  margin-left: 1rem;
+  color: #1e2224;
+}
+
+.activity-text img {
+  margin-top: 0.5rem;
+}
+
+.activity-month {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.activity-bottom p {
+  margin-bottom: 0.75rem;
+}
+
+.activity-bottom-buttons {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.activity-save-buttons {
+  margin-right: 0.3rem;
+  margin-left: 1rem;
+}
+
+.activity-task-map:last-child .activity-bottom-buttons {
+  margin-bottom: 8rem;
+}
+
+
+
+.deal-activity-btn {
+  margin-bottom: 1rem;
+}
+.activity-calling {
+  border-radius: 50%;
+  border: 1px solid #dcdcdc;
+  padding: 0.2rem;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.activity-calling-2 {
+  border-radius: 50%;
+  border: 1px solid #dcdcdc;
+  padding: 0.2rem;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.activity-ring {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.activity-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: none;
+}
+
+.activity-date img {
+  margin-top: -0.6rem;
+  margin-right: 0.5rem;
+}
+
+.activity-action {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.activity-by {
+  justify-content: space-between;
+  align-items: start;
+}
+
+.activity-button {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 2rem;
+}
+.activity-button button:first-child {
+  margin-right: 1rem;
+}
+.activity-button button:last-child {
+  margin-right: 3.5rem;
+}
+
+.activity-container {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+/* .activityBox{
+    border: 2px solid red;
+  } */
+.activity-date {
+  height: 2.125rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.activity-date-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.activity-date-time img {
+  margin-top: -0.8rem;
+  margin-right: 0.1rem;
+}
+
+.activity-save-note {
+  padding-bottom: 0;
+}
+
+.activity-role {
+  border: none;
+  outline: none;
+  color: var(--ternary);
+  font-family: Lexend Deca;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+
+.activity-call-name {
+  padding-left: 0.3rem;
+}
+
+.activity-disable-white {
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.activity-phone {
+  margin-left: -0.7rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.activity-new-call {
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #f4f5f9;
+}
+
+.activity-phone-input {
+  border: none;
+  outline: none;
+  background-color: #f4f5f9;
+}
+
+.activity-phone-input:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.activity-timefrom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.activity-timefrom-select {
+  color: #1e2224;
+  font-family: Lexend Deca;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.activity-timefrom label {
+  color: #33475b;
+  font-family: Lexend Deca;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+  margin-top: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.activity-open-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activity-date-2 {
+  padding: 0;
+}
+
+.activity-new-date input {
+  border: none;
+  outline: none;
+}
+
+.activity-describe {
+  margin-top: 2rem;
+  color: #33475b;
+  font-family: Lexend Deca;
+  font-size: 0.75rem;
+}
+
+.activity-big-textarea {
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #f4f5f9;
+  width: 100%;
+  font-size: 0.875rem;
+  padding: 1rem;
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+.activity-due {
+  color: #33475b;
+  font-size: 0.75rem !important;
+  margin-left: 0.3rem;
+}
+
+.activity-del {
+  cursor: pointer;
+  margin-left: 0.2rem;
+}
+
+.activity-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.activity-flex div:first-child {
+  width: 100%;
+}
+.activity-trash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-top: -0.5rem;
+}
+
+.hide-select-arrow {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-size: 16px; /* Adjust the size as needed */
+  background-position: right center;
+  padding-right: 20px; /* Adjust the padding to leave space for the arrow */
+}
+
+.activity-new-disable-white {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  padding: 0.5rem;
+}
+
+.activity-new-input {
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: #f4f5f9;
+ box-shadow: none !important;
+ width: 100%;
+
+}
+.activity-new-input:focus {
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: #f4f5f9;
+}
+
+.activity-assigned-to span {
+  font-weight: 600;
+}
+
+.hide-activity-tick {
+  display: none;
+}
+
+.show-activity-tick {
+  display: block;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 0.5rem;
+}
+
+.green-activity-tick {
+  color: #077838;
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+.white-activity-tick {
+  color: white;
+  border: 1px solid #dcdcdc;
+  border-radius: 50%;
+}
+
+.activity-height {
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+.email-tab-view {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin-left: 0.05rem;
+}
+
+.email-assign-arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-assign-arrow span {
+  color: #33475b;
+  font-size: 0.75rem;
+}
+
+.email-assign-arrow span:last-child{
+  text-transform: lowercase;
+}
+
+.email-assign-arrow img{
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
+}
+
+.email-call{
+  font-weight: 600 !important;
+}
+
+.email-sender-name , .email-reciever-name{
+  font-size: 0.75rem;
+}
+
+.email-sender-name span, .email-reciever-name span{
+  color:#33475b;
+  
+}
+
+.email-reciever-name{
+  text-transform: lowercase;
+}
+
+.email-reciever-name span{
+  text-transform: capitalize;
+  margin-right: 0.2rem;
+  
+}
+
+.email-task-map{
+  border-radius: 0.3125rem;
+  background: #F4F5F9;
+  /* Card shadow */
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+.email-pink{
+background: #FFF5DC;
+}
+
+.email-top-cc{
+  background-color: #F4F5F9 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  border: 1px solid #ccc;
+}
+
+.email-top-deal{
+  width:98.9%
+}
+
+.email-top-lead{
+  width:98.3%;
+}
+
+.email_xx_contact_person{
+  width:98.9%;
+}
+
+.email_xx_company{
+  width:98.9%
+}
+
+.email-top-cc:first-child{
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+
+.quillEditor2 .ql-toolbar {
+  position: relative;
+  border: 1px solid #ccc; /* Add or adjust border styles as needed */
+  border-radius: 4px; /* Add or adjust border radius as needed */
+}
+
+.quillEditor2 .ql-toolbar.ql-snow {
+  height: auto;
+  top: 9.1rem; /* Adjust this value to move the icons down */
+  border: 1px solid #ccc;
+  z-index: 1000;
+  background: #f4f5f9;
+}
+
+.quillEditor2 .ql-toolbar button {
+  padding: 5px 8px;
+  margin: 0 2px;
+}
+
+.quillEditor2 .ql-container{
+  margin-top: -4.2rem;
+  /* border: none !important; */
+  width: 100%;
+}
+
+.crm-new-border{
+  border-top: 1px solid #ccc;
+}
+
+
+
+.email-to-input{
+  background-color: #f3f6fa;
+  border:none;
+  outline: none;
+  margin-left: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.email-lead{
+  width:20rem;
+}
+
+.email-deal{
+  width:40rem;
+}
+
+
+#emailInput:focus, #emailInput2:focus, #emailInput3:focus{
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.email-ul li{
+  background-color: white;
+  margin-bottom: 0.5rem;
+  width: max-content;
+  padding: 0.2rem 0.5rem;
+}
+
+.email-cross{
+  font-size: 0.75rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.email-save-cancel{
+  margin-top: 1rem;
+}
+
+.email-open{
+  background-color: #fff;
+}
+
+.email-close{
+  background-color: #e2e9f2;
+}
+
+.quillEditor3 .ql-toolbar {
+  position: relative;
+  border: 1px solid #ccc; /* Add or adjust border styles as needed */
+  border-radius: 4px; /* Add or adjust border radius as needed */
+}
+
+.quillEditor3 .ql-toolbar.ql-snow {
+  height: auto;
+  top: 9.1rem; /* Adjust this value to move the icons down */
+  border: 1px solid #ccc;
+  z-index: 1000;
+  background: #f4f5f9;
+}
+
+.quillEditor3 .ql-toolbar button {
+  padding: 5px 8px;
+  margin: 0 2px;
+}
+
+.quillEditor3 .ql-container{
+  margin-top: -7.5%;
+  /* border: none !important; */
+  width: 100%;
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1540px) {
+  .quillEditor3 .ql-container {
+    margin-top: -4%;
+    width: 100%;
+    border-radius: 0;
+  }
+}
+@media only screen and (min-width: 1541px){
+  .quillEditor3 .ql-container {
+    margin-top: -3.8%;
+    width: 100%;
+    border-radius: 0;
+  }
+}
+@media only screen and (min-width: 1700px){
+  .quillEditor3 .ql-container {
+    margin-top: -3.5%;
+    width: 100%;
+    border-radius: 0;
+  }
+}
+@media only screen and (min-width: 1800px){
+  .quillEditor3 .ql-container {
+    margin-top: -3.2%;
+    width: 100%;
+    border-radius: 0;
+  }
+}
+

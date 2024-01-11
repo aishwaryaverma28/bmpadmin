@@ -1,0 +1,496 @@
+.help-modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  /* align-items: center; */
+  justify-content: end;
+  font-family: "Lexend Deca";
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.help-modal-box {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  width: 31rem;
+  height: auto;
+  position: relative;
+  overflow-y: auto;
+}
+
+.help-cross {
+  background-color: var(--white);
+  border-radius: 0.3125rem;
+  border: 1px solid var(--border-color);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.05);
+  padding: 0.75;
+  width: 2.625rem;
+  height: 2.625rem;
+  font-size: var(--font-bigger);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 31.5rem;
+  top: 0.94rem;
+  cursor: pointer;
+}
+
+.help-tabs {
+  margin: 0 1rem !important;
+}
+
+/* question tab css starts  */
+
+.question-tab {
+  /* padding:1.5rem; */
+  margin: 1rem;
+}
+
+.question-tab-top {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: var(--font-bigger);
+}
+
+.question-tab-note {
+  color: var(--font-light);
+  margin-bottom: 1.5rem;
+}
+
+.question-search-input {
+  color: #000 !important;
+  /* Set your desired text color */
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2.5rem;
+  /* Adjust the value to create space for the search icon */
+  padding-right: 1rem;
+  width: 28rem;
+  height: 2.375rem;
+  border-radius: 3.4375rem;
+  border: 1px solid var(--border-color);
+  background: var(--white);
+}
+
+.question-search-input::placeholder {
+  color: var(--font-light);
+
+  /* Placeholder text color */
+}
+
+.question-search-icon {
+  position: absolute;
+  top: 50%;
+  left: 0.94rem;
+  /* Adjust the value to position the icon correctly */
+  transform: translateY(-50%);
+  width: 1.25rem;
+  height: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 0.81rem; */
+}
+
+.question-para {
+  margin-bottom: 1.5rem;
+  color: var(--font-light);
+  margin-top: 1.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  /* 142.857% */
+}
+
+.headphone-container {
+  margin: 1rem;
+}
+
+
+
+/* question tab css ends */
+
+/* time tab  */
+
+.time-container {
+  margin: 1rem;
+}
+
+.time-request-heading {
+  font-size: var(--font-bigger);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.time-request-note {
+  font-size: var(--font-medium);
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+.service-user-details {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.service-user-name {
+  color: var(--font-light);
+  width: 6rem;
+}
+
+.green-color-tick {
+  width: 1.375rem;
+  height: 1.375rem;
+  border-radius: 50%;
+  background-color: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.white-color-tick {
+  width: 1.375rem;
+  height: 1.375rem;
+  border-radius: 50%;
+  background-color: var(--border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.service-request-open {
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.service-date {
+  color: var(--font-light);
+  margin-bottom: 0.3rem;
+}
+
+.time-progress-section1,
+.time-progress-section2 {
+  display: flex;
+  position: relative;
+  margin-bottom: 2rem;
+  /* justify-content: start;
+    align-items:start; */
+}
+
+.time-progress-section2 {
+  margin-bottom: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+.green-line {
+  width: 0.0625rem;
+  height: 4.5rem;
+  background-color: var(--primary);
+  position: absolute;
+  top: 72%;
+  left: 2.3%;
+}
+.white-line {
+  width: 0.0625rem;
+  height: 4.8rem;
+  background-color: var(--border-color);
+  position: absolute;
+  top: 58%;
+  left: 2.3%;
+}
+
+.time-user-name {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.time-user-icon {
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--border-color);
+  border-radius: 50%;
+  margin-right: 0.2rem;
+}
+.time-user-icon img {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.issue-resolved {
+  color: var(--font-lighter);
+}
+
+.time-attachments {
+  margin-bottom: 0.3rem;
+}
+
+.attachments-section {
+  margin-top: 3.5rem;
+}
+
+.time-screenshot {
+  color: var(--ternary);
+}
+
+.time-screenshot img {
+  margin-left: 0.4rem;
+}
+
+/* time tab ends */
+
+/* seach section */
+
+.search_result {
+  width: 28rem;
+  max-height: 40vh;
+  overflow-y: scroll;
+  background-color: var(--white);
+  border-radius: 0.3125rem;
+  border: 1px solid var(--border-color);
+  /* border: 10px solid black; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 0.5rem;
+}
+.searchTitle {
+  border-bottom: 1px solid var(--border-color);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.searchTitle:hover {
+  background: #e8e7e7;
+}
+/* search section ends */
+
+.time-ticket-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.time-ticket-top-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time-box {
+  border: 1px solid var(--border-color);
+  border-radius: 0.3125rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.time-bottom-btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: var(--th-background);
+  padding: 1rem;
+  margin: -1rem;
+  margin-top: 1rem;
+}
+
+.time-save {
+  margin-left: 1rem;
+}
+
+.ticket-date {
+  width: 100%;
+  color: var(--font-color);
+}
+
+.ticket-img {
+  padding: 0.4rem;
+  border-radius: 50%;
+  border: 1px solid var(--th-background);
+  cursor: pointer;
+  background-color: var(--input-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-img img{
+    max-width: none;
+}
+
+.ticket-loading {
+  font-size: 1.5rem;
+}
+
+.ticket-title {
+  width: 60%;
+  text-transform: none;
+}
+
+.ticket-id {
+  width: 40%;
+  margin-left: 0.5rem;
+}
+
+
+/* notification modal css  */
+
+.notify-heading{
+  font-weight: 500 !important;
+  font-size: 1.375rem !important;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.notify-action{
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.notify-action button:first-child{
+margin-left: 1rem;
+}
+
+.notify-menu{
+  left:0% !important;
+  width: 18rem !important;
+}
+
+.notify-filter-by{
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.notify-filter-menu{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ margin-top: 0.5rem;
+}
+
+.notify-check{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: -0.5rem;
+}
+
+.notify-done{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.notify-btns{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.notify-day{
+  margin-left: 1.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.notify-box{
+  border-radius: 0.3125rem;
+border: 1px solid #DCDCDC;
+background: #F3F6FA;
+margin-left: 1.5rem;
+margin-right: 1.5rem;
+margin-top: 1rem;
+padding: 1rem;
+display: flex;
+align-items: start;
+justify-content: space-between;
+}
+
+.notify-meeting{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.notify-meeting-text{
+  margin-left: 0.75rem;
+}
+
+.notify-meeting img{
+  margin-top: 0.1rem;
+}
+
+.notify-meet{
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.notify-view{
+ margin-top: 1.1rem;
+ color: var(--ternary);
+ cursor: pointer;
+ font-weight: 500;
+}
+
+.notify-ago{
+  font-size: 0.75rem;
+}
+
+.notify-new-box, .notify-new-box-2{
+  border-radius: 0.3125rem;
+  border: 1px solid #DCDCDC;
+  background: #F3F6FA;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.notify-new-box-2{
+  background-color: #fff;
+}
+
+.notify-edit-deal span{
+  font-weight: 600;
+}
+
+.notify-edit-deal{
+  width: 16rem;
+}
+
+.notify-dates{
+  font-size: 0.75rem;
+}
+
+.notify-dot{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.notify-dot p{
+  margin-left: 1rem;
+}
+
+.notify-last{
+  margin-bottom: 1rem;
+}

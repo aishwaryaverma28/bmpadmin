@@ -1,0 +1,323 @@
+.aaa {
+  margin-top: 1rem;
+}
+
+.contacts-top-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-top-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1rem;
+  margin-right: 1rem;
+}
+
+.contact-dots {
+  margin-left: 1rem;
+}
+
+.contact-btn-top {
+  width: 9rem;
+}
+
+.contact-search-container {
+  margin-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  margin-right: 1rem;
+}
+
+.contact-cp-table {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width:max-content;
+  overflow-x: auto;
+   margin-bottom: 3rem;
+}
+.people-cp-table {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  /* width:max-content;
+  overflow-x: auto; */
+   margin-bottom: 3rem;
+}
+
+.postal-cp{
+  text-transform: uppercase;
+}
+
+.contact-building {
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #f3f6fa;
+}
+
+.contact-box {
+  padding-top: 1.2rem;
+}
+
+.contact-three-dots {
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.contact-three-dots img {
+  margin-top: 0.2rem;
+}
+
+.contact-delete-menu {
+  left: -200%;
+}
+
+.contact-th {
+  text-align: left;
+  font-weight: 600;
+}
+
+.person-email {
+  text-transform: lowercase;
+}
+
+
+.contact-cpu-container {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding-top: 0px;
+  border-top: 1px solid var(--border-color);
+  border-radius: 0.3125rem;
+}
+
+.cpu-left {
+  width: 100%;
+  height: 75vh;
+  overflow-y: scroll;
+ 
+}
+.cpu-left-wrapper{
+  width: 30%;
+  height: 85vh;
+  border-right: 1px solid #d3d4d5;
+}
+
+.cpu-back button {
+  padding-top: 1rem !important ;
+}
+
+.cpu-building {
+  border-radius: 50%;
+  padding: 0.5rem;
+  width: 3.625rem;
+  height: 3.625rem;
+  background-color: #f3f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cpu-building img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.cpu-top-details {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 0.5rem;
+}
+
+.cpu-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.cpu-pen {
+  margin-right: 0.5rem;
+  margin-top: 1rem !important;
+}
+
+#cpu-tech.disabled {
+  color: #1e2224 !important;
+  font-weight: 600 !important;
+}
+
+.cpu-p p {
+  font-weight: 600 !important;
+}
+
+.cpu-dot {
+  margin-right: 0.2rem;
+}
+
+.cpu-building {
+  margin-left: 1rem;
+}
+
+.cpu-icons {
+  margin-right: 1rem;
+}
+
+.cpu-section,
+.cpu-content {
+  margin-left: 1rem;
+}
+
+.cpu-add {
+  cursor: pointer;
+}
+
+.cpu-manager {
+  color: #909db0;
+  font-size: 0.75rem;
+}
+
+.cpu-amount{
+    font-size: 0.75rem;
+}
+
+.cpu-mail {
+  color: var(--ternary);
+  font-size: 0.75rem;
+  text-transform: lowercase;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.cpu-mail img {
+  margin-left: 0.2rem;
+}
+
+.cpu-contact-box {
+  padding: 1rem;
+  border: 1px solid #dcdcdc;
+  border-radius: 0.3125rem;
+  width: 100%;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  position: relative;
+  padding-bottom: 0;
+}
+
+.cpu-contact-box p {
+  margin-bottom: 0.75rem;
+}
+
+
+
+.cpu-user-icon {
+  padding: 0.6rem;
+  background-color: #f3f6fa;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 8%;
+  right: 5%;
+}
+
+.cpu-user-icon img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.cpu-user-cal {
+  position: absolute;
+  bottom: 8%;
+  right: 8%;
+  padding: 0.3rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #2b74da;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cpu-user-cal img{
+    width: 1rem;
+  height: 1rem;
+}
+
+.cpu-contact-lead{
+    color:var(--ternary);
+}
+
+.cpu-stage{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.cpu-select{
+    margin-left: 0.2rem;
+    color: var(--ternary);
+    border: none;
+    outline: none;
+}
+
+.cpu-lead-cal{
+    position: absolute;
+    bottom: 12%;
+    right: 8%;
+    padding: 0.3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.3125rem;
+    border: 1px solid #2b74da;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cpu-right{
+    width: 70%;
+}
+
+.company-domain-case{
+  text-transform: lowercase;
+}
+
+.cp-table-container{
+  overflow-x: scroll;
+}
+
+.cpu-postcode{
+  text-transform: uppercase;
+}
+
+.cpu-postal-code{
+  position: relative;
+}
+
+.cpu-address-view{
+  z-index: 100;
+  position: absolute;
+  top:100%;
+  left:-90%;
+  overflow-x: scroll;
+  width: 320px;
+}
+
+
+
+

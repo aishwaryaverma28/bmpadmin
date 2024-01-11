@@ -1,0 +1,1164 @@
+.backToDeal {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.backToDeal button {
+  color: #33475b;
+  display: flex;
+  align-items: center;
+  border: none;
+  font-size: 0.75rem;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.fa-pen {
+  cursor: pointer;
+}
+
+.dealName {
+  color: #1e2224;
+  font-family: "Lexend Deca";
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+
+.dealcontainer {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding-top: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-top: 1px solid var(--border-color);
+  border-radius: 0.3125rem;
+}
+
+.detailsContent {
+  margin-bottom: 10px;
+}
+
+.dealLeftSection {
+  width: 100%;
+  height: 48vh;
+  overflow-y: scroll;
+  /* border-right: 1px solid #d3d4d5; */
+}
+
+.deal-left-wrapper{
+  width:30%;
+  height: 58vh;
+  border-right: 1px solid #d3d4d5;
+}
+
+.divRightSection {
+  width: 70%;
+  /* background-color: #F6F7F8; */
+}
+
+.summaryDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.summaryDiv p {
+  font-family: "Lexend Deca";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: uppercase;
+  color: #33475b;
+}
+
+.dealsLeftContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 10rem;
+}
+
+.dealsLeftContainer p {
+  color: #4b5054;
+  font-family: "Lexend Deca";
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.dealSectionHead > i {
+  margin-right: 0.7rem;
+}
+
+.dealSectionHead {
+  cursor: pointer;
+}
+
+.addProduct {
+  color: #2b74da !important;
+  margin-right: 1rem;
+}
+
+.addProduct > i {
+  margin-right: 0.7rem;
+}
+
+/* arrow css starts  */
+
+.arrow-container{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  width:100vw;
+  flex-wrap: wrap;
+}
+
+.arrow-btn{
+  margin-top: 0.1rem;
+}
+
+.arrow-pointer {
+  width:10rem;
+  height: 2.5rem;
+  background-color: #f3f3f3;
+  position: relative;
+  cursor: pointer;
+  margin-left: 1rem;
+  display: inline-block; 
+}
+.arrow-pointer p {
+margin-left: 0.5rem;
+
+}
+
+
+
+
+.arrow-pointer:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 1rem solid #fff;
+  border-top: 1.25rem solid transparent;
+  border-bottom: 1.25rem solid transparent;
+}
+
+.arrow-pointer:before {
+  content: "";
+  position: absolute;
+  right: -1rem;
+  /* Adjusted border value */
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 1rem solid #f3f3f3;
+  border-top: 1.25rem solid transparent;
+  border-bottom: 1.25rem solid transparent;
+}
+
+.arrow-blue::before {
+  border-left: 1rem solid #2b74da;
+}
+
+.arrow-green::before {
+  border-left: 1rem solid #077838;
+}
+
+.arrow-section {
+  padding: 10px 30px;
+  padding-top: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #1e2224;
+}
+
+.arrow-text {
+  font-size: 0.8125rem;
+  position: absolute;
+  top: 50%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.deals-arrow-left {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.arrow-scroll-left {
+  position: relative;
+  width: 2rem;
+  height: 2.5rem;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+}
+
+.arrow-scroll-right {
+  margin-left: 1.5rem;
+  position: relative;
+  width: 2rem;
+  height: 2.5rem;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* .arrow-scroll-left::after {
+  content: "";
+  position: absolute;
+  right: -1rem;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 1rem solid #f3f3f3;
+  border-top: 1.25rem solid transparent;
+  border-bottom: 1.25rem solid transparent;
+} */
+
+.arrow-scroll-left::before {
+  content: "";
+  position: absolute;
+  left: -1rem;
+  /* Adjusted border value */
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-right: 1rem solid #f3f3f3;
+  /* Adjusted border value */
+  border-top: 1.25rem solid transparent;
+  border-bottom: 1.25rem solid transparent;
+}
+
+.arrow-scroll-right::before {
+  content: "";
+  position: absolute;
+  right: -1rem;
+  /* Adjusted border value */
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 1rem solid #f3f3f3;
+  /* Adjusted border value */
+  border-top: 1.25rem solid transparent;
+  border-bottom: 1.25rem solid transparent;
+}
+
+/* .arrow-scroll-right:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 1rem solid #fff;
+  border-top: 1.25rem solid transparent;
+  border-bottom: 1.25rem solid transparent;
+} */
+
+.deals-arrow-right {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.arrow-won {
+  padding: 7px 15px;
+  border-radius: 0.3125rem;
+  background-color: var(--primary);
+  border: 1px solid transparent;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.arrow-won:hover {
+  color: var(--primary);
+  background-color: #fff;
+  border: 1px solid var(--primary);
+  transition: all 0.5s ease-in-out;
+}
+.arrow-lost:hover {
+  color: var(--secondary);
+  background-color: #fff;
+  border: 1px solid var(--secondary);
+  transition: all 0.5s ease-in-out;
+}
+
+.arrow-lost {
+  padding: 7px 15px;
+  border-radius: 0.3125rem;
+  background-color: var(--secondary);
+  border: 1px solid transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+.arrow-point {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 1rem solid transparent;
+  border-top: 1.25rem solid transparent;
+  border-bottom: 1.25rem solid transparent;
+}
+.bank-button{
+  margin-left: 0.6rem;
+  padding: 7px 15px;
+  border-radius: 0.3125rem;
+border: 1px solid #077838;
+  color: #077838;
+  cursor: pointer;
+}
+/* Rest of your CSS styles ... */
+
+/* arrow css starts ends */
+
+/* setting deals css starts  */
+
+.ds-name {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.ds-setup-heading {
+  font-size: 1.125rem;
+  margin-left: 1rem;
+  font-weight: 600;
+}
+
+.ds-setup-flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.ds-setup-blue-text {
+  color: var(--ternary);
+}
+
+.ds-setup-text {
+  color: var(--font-light);
+}
+
+.ds-setup-text-box {
+  margin-left: 0.5rem;
+}
+
+.ds-setup-check {
+  margin-left: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.ds-setup-check-text {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+
+.ds-setup-select-text {
+  margin-left: 2.7rem;
+  color: var(--font-lighter);
+  font-size: 0.75rem;
+}
+
+.ds-setup-radio {
+  margin-left: 2.7rem;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ds-setup-radio input {
+  cursor: pointer;
+}
+
+.ds-setup-radio label {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.ds-setup-select {
+  margin-left: 3.8rem;
+  margin-top: 0.5rem;
+  padding: 0.7rem 0.94rem;
+  border-radius: 0.3125rem;
+  border: 1px solid var(--border-color);
+  background: var(--input-background);
+  cursor: pointer;
+}
+
+.ds-setup-accordian {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.ds-setup-doc {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ds-setup-table-heading {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.ds-setup-basic {
+  margin-left: 0.5rem;
+}
+
+.ds-setup-table table {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 95%;
+  margin-top: 1rem;
+  border-radius: 0.3125rem 0.3125rem 0rem 0rem;
+  border: 1px solid var(--border-color);
+  background: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.ds-setup-table td {
+  background-color: var(--white);
+}
+
+.ds-setup-table td:first-child {
+  width: 2%;
+  border-right: 1px solid transparent;
+}
+
+.mainPage {
+  width: 100%;
+}
+
+.ds-setup-add {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 2rem;
+  margin-right: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.ds-setup-input {
+  border: none;
+  border-radius: 0.3125rem;
+  background: var(--input-background);
+  padding: 0.5rem;
+  width: 40%;
+}
+
+.ds-setup-doc {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.ds-setup-save-doc {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.ds-setup-save-doc button {
+  margin-left: 1rem;
+}
+
+.ds-setup-info {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+.ds-setup-note {
+  color: #33475b;
+  margin-left: 1rem;
+}
+
+.ds-setup-stage-btn {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.ds-setup-stage-btn button {
+  color: var(--ternary);
+  padding: 7px 15px;
+  border-radius: 0.3125rem;
+  border: 1px solid var(--ternary);
+}
+.ds-setup-stage-btn button:hover {
+  color: white;
+  background-color: var(--ternary);
+  cursor: pointer;
+  border: 1px solid var(--ternary);
+  transition: all 0.5s ease-in-out;
+}
+
+.ds-stage-input {
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 0.3rem;
+}
+
+.ds-stage-label {
+  color: #33475b;
+}
+
+.ds-setup-table th {
+  background-color: #f3f6fa;
+  text-align: left;
+}
+
+.ds-setup-table th:first-child {
+  width: 50%;
+}
+
+.ds-setup-td-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ds-setup-menu {
+  width: 8rem;
+  left: -0.6rem;
+}
+
+/* setting deals css ends */
+
+.add-component-input {
+  width: 100%;
+}
+
+/* update deal select css  */
+.ud-stages {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.ud-stage-name {
+  margin-right: 0.5rem;
+}
+
+.ud-select {
+  color: var(--ternary);
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+}
+/* update deal select css ends */
+
+#label_name.disabled {
+  color: white !important;
+}
+
+.deal-update-btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 0.5rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.stage-position {
+  left: 0rem;
+}
+
+
+.active-stage {
+  background-color: var(--ternary);
+  color: var(--white);
+  border-radius: 0.3125rem;
+}
+
+.deal-loading {
+  margin-left: 0.5rem;
+}
+
+.deal-bottom-radio {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.deal-bottom-radio div:nth-child(1) {
+  margin-right: 2.5rem;
+}
+
+.deal-radio-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deal-radio-input input {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.deal-label {
+  font-weight: 400;
+  color: #1e2224;
+  font-size: 0.875rem;
+  display: block;
+  cursor: pointer;
+}
+
+.deal-new-select {
+  padding: 0;
+}
+
+/* deal attachments  */
+
+.deal-browse-doc {
+  margin-left: 0.7rem;
+  text-transform: none;
+}
+
+.deal-doc-select {
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  width: 23rem;
+  height: 2rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.deal-doc-list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.deal-doc-eye {
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 17%;
+}
+
+.deal-doc-eye-2 {
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2%;
+}
+
+.deal-doc-verify {
+  margin-left: 0.7rem;
+  margin-top: 1rem;
+}
+
+.deal-doc-label {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.deal-doc-label span:first-child {
+  font-weight: 500;
+  margin-right: 0.7rem;
+}
+
+.deal-doc-label i {
+  color: #077838;
+  margin-right: 0.7rem;
+}
+
+.deal-doc-label img {
+  margin-right: 0.7rem;
+}
+.deal-doc-label span:last-child {
+  color: var(--Tertiary-Text, #909db0);
+  font-size: 0.75rem;
+}
+
+.deal-doc-file {
+  margin-top: 0.2rem;
+}
+
+.deal-doc-btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+}
+.deal-doc-btn button:first-child {
+  margin-right: 1rem;
+}
+
+.fields-msg {
+  color: #077838;
+  text-transform: none;
+  margin-bottom: 1rem;
+}
+.fields-select {
+  padding: 0.5rem;
+  outline: none;
+  margin-left: 0.6rem;
+  cursor: pointer;
+}
+
+.field-loading {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.mass-update-input {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 6rem;
+}
+
+.mass-update-btn {
+  margin-left: -1.75rem;
+  margin-right: -1.75rem;
+  margin-bottom: -1rem;
+}
+
+.selected-mass-user {
+  color: #33475b;
+  margin-bottom: 0.5rem;
+}
+
+#date-bg {
+  background-color: white;
+}
+
+/* deal attachments ends */
+
+/* deal document */
+
+.deal-doc-wrapper{
+  height: 70vh;
+  overflow: auto;
+}
+
+.deal-doc-container {
+  margin-left: 1rem;
+}
+
+.doc-pin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-pencil-square-o {
+  margin-right: 0.5rem;
+}
+
+.deal-doc-flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  width: max-content;
+  padding: 0.5rem;
+}
+
+.deal-doc-top {
+  margin-left: 1rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.deal-doc-flex img {
+  margin-right: 0.5rem;
+}
+
+.doc-line {
+  height: 2rem;
+  border-right: 1px solid #dcdcdc;
+  margin-left: 1rem;
+}
+
+.doc-cloud {
+  color: var(--ternary);
+  margin-left: 0.5rem;
+}
+
+.doc-cloud-img {
+  margin-left: 1rem;
+}
+
+.doc-cloud-comp {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.deal-doc-box {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  margin-left: 1rem;
+  padding: 1rem;
+  margin-top: 1.75rem;
+}
+
+.deal-doc-sample{
+  font-weight: 500;
+}
+
+.deal-doc-sent{
+  background-color: var(--ternary);
+  padding: 0.1rem 1rem;
+  border-radius: 2rem;
+  width: max-content;
+  margin-top: 0.8rem;
+}
+
+.deal-doc-sent p{
+  text-align: center;
+  color: white;
+}
+.deal-doc-comp{
+  background-color: var(--primary);
+  padding: 0.1rem 1rem;
+  border-radius: 2rem;
+  width: max-content;
+  margin-top: 0.8rem;
+}
+
+.deal-doc-comp p{
+  text-align: center;
+  color: white;
+}
+
+.deal-doc-status{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.deal-doc-completed{
+  color: var(--ternary);
+  margin-top: 0.8rem;
+  margin-left: 1rem;
+}
+
+.deal-doc-menu{
+  left:0;
+  top:60%;
+}
+
+.deal-doc-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.deal-doc-action{
+  color:var(--ternary);
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.deal-doc-angle{
+  margin-left: 0.5rem;
+}
+
+.deal-doc-time{
+color:#33475B;
+font-size: 0.75rem;
+}
+
+.doc-preview-top{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 1rem;
+}
+
+.doc-preview-heading{
+  margin-left: 1rem;
+}
+
+.doc-preview-one{
+  width: 1.75rem;
+height: 1.75rem;
+background-color: #f3f6fa;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.doc-preview-number{
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.doc-preview-para{
+  margin-top: 1rem;
+}
+
+.preview-pen{
+  margin-left: 0.2rem;
+}
+
+.doc-preview-sample{
+  margin:1rem;
+  text-transform: lowercase;
+}
+.doc-preview-sample button{
+  text-transform: lowercase;
+}
+
+.preview-btn{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.preview-btn button:last-child{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.stage-dropdown {
+  height: 40vh;
+  overflow-y: auto;
+  margin-top: -2.6rem;
+  box-shadow: none;
+  border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+border: none;
+background-color: white;
+width:11.9rem;
+}
+
+.stage-outer-div{
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  background-color: #fff;
+padding: 10px;
+width: 12rem;
+border: 1px solid #ccc;
+}
+
+
+
+.stage-save-btn {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left:50%;
+  transform: translateX(-50%);
+  width: 80%;
+  margin-bottom: 1rem;
+
+}
+
+.lost-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.lost-flex textarea{
+  outline: none;
+  padding: 1rem;
+  margin-top: 0.5rem;
+
+}
+
+.lost-save{
+  margin-left: 1rem;
+}
+
+.recipient-modal-box{
+  width: 58rem;
+}
+.recipient-cross{
+  right: 58.5rem;
+}
+
+.signing-order{
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+
+.recipient-top{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.recipient-input-flex{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+
+.recipient-start{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0.3125rem;
+border: 1px solid #DCDCDC;
+background:#FFF;
+padding:0.5rem;
+margin-left: 1rem;
+margin-right: 1rem;
+margin-top: 1rem;
+}
+
+.recipient-label{
+  color:#33475B;
+  margin-bottom: 0.2rem;
+}
+
+.recipient-input{
+  width: 20rem;
+}
+
+.email-recipient-input{
+  text-transform: lowercase;
+}
+
+.recipient-trash{
+  padding: 0.6rem;
+border-radius: 0.3125rem;
+border: 1px solid #DCDCDC;
+background:#FFF;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.add-recipients{
+  color: var(--ternary);
+  cursor: pointer;
+}
+
+.count-recipients{
+  color: #909DB0;
+}
+
+.count-add-recipients{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.doc-preview-img{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.doc-preview-img img{
+  height: 25rem;
+  width: auto;
+
+}
+
+.recipient-bottom-btn{
+  position: fixed;
+  bottom:2%;
+  right: 2%;
+}
+
+.detailsRow{
+  display: flex;
+
+}
+.detailesLine{
+  color: #33475B;
+font-family: Lexend Deca;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem;
+}
+.bankName{
+  color: #1E2224;
+font-family: Lexend Deca;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+text-transform: capitalize;
+}

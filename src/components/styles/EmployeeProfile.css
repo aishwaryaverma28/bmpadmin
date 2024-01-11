@@ -1,0 +1,526 @@
+.navigationBar2 {
+  border-bottom: 1px solid #c9cdd2;
+}
+.navLinks {
+  display: flex;
+  gap: 1.5rem;
+  margin: 15px 30px;
+}
+
+.navLinks > li > a {
+  display: inline-block;
+  padding: 7px 10px 7px 10px;
+  text-decoration: none;
+  color: #1e2224;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.navLinks > li > a:hover {
+  background-color: #e2e9f2;
+  color: #2b74da;
+}
+
+.active {
+  background-color: #e2e9f2;
+  color: #2b74da !important;
+  margin-right: 1rem;
+}
+.timeButton {
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: right;
+}
+.timeBtn {
+  border: 1px solid #dcdcdc;
+  background: #ffffff;
+  color: #2b74da;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: capitalize;
+  padding: 0px 15px;
+  border-radius: 5px 0px 0px 5px;
+  cursor: pointer;
+}
+.timeBtn:hover {
+  border: 1px solid #2b74da;
+  transition: all 0.8s ease-in-out;
+  border-radius: 5px 0px 0px 5px;
+  background: #2b74da;
+  color: #ffffff;
+}
+.timeSubmit {
+  font-size: 12px;
+  font-family: "Lexend Deca", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #077838;
+  background: #077838;
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 5px 10px;
+  margin: 0 auto;
+  display: block;
+}
+.timeSubmit:hover {
+  border: 1px solid #077838;
+  background: #ffffff;
+  color: #077838;
+  transition: all 0.8s ease-in-out;
+}
+.paginationBtn {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: right;
+  gap: 0.5rem;
+}
+.paginationBtn button {
+  padding: 0.2rem;
+}
+.userProfile {
+  /* border: 2px solid red; */
+  padding: 1.5rem 3.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.profileImage p {
+  color: #1e2224;
+  font-size: 16px;
+  font-family: "Lexend Deca";
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.profileImage > img {
+  width: 150px;
+  height: 150px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profileImage > button {
+  cursor: pointer;
+  color: #1e2224;
+  font-size: 16px;
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-top: 20px;
+  background: #e2e9f2;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.3);
+}
+.dateTime > p {
+  color: #1e2224;
+  font-size: 14px;
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.designation {
+  padding: 1.5rem 3.5rem;
+  display: flex;
+  gap: 5rem;
+}
+.designation > p {
+  color: #1e2224;
+  font-size: 16px;
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.designation span {
+  width: 180px;
+  color: #86878a;
+  font-size: 14px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 500;
+}
+.personalDetails {
+  padding: 1.5rem 3.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailsFirstSection {
+  width: 25%;
+  margin: 1.5rem;
+}
+.detailsSecondSection {
+  width: 25%;
+  margin: 1.5rem;
+}
+.profileImage > p,
+.personalRole > p,
+.detailsFirstSection > p,
+.detailsSecondSection > p {
+  color: #1e2224;
+  font-size: 16px;
+  font-family: "Lexend Deca";
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.detailsFirstSection > ul > li,
+.detailsSecondSection > ul > li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 27px;
+  /* text-transform: capitalize; */
+}
+.detailsFirstSection > ul > li > p,
+.detailsSecondSection > ul > li > p {
+  /* width: 180px; */
+  color: #86878a;
+  font-size: 14px;
+  font-family: "Lexend Deca";
+  font-weight: 500;
+  padding: 1rem 0;
+}
+.detailsFirstSection > ul > li > span,
+.detailsSecondSection > ul > li > span {
+  /* width: 120px; */
+  color: #1e2224;
+  font-size: 14px;
+  font-family: "Lexend Deca";
+  font-weight: 500;
+}
+
+.timesheetSaveBtn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 15px;
+  /* margin-top: 50px; */
+  padding: 1.5rem 3.5rem;
+}
+
+.timesheetSaveBtn > .cancleBtn {
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Lexend Deca", sans-serif;
+  color: #1e2224;
+  font-weight: 500;
+  text-transform: capitalize;
+  background: #ffffff;
+  padding: 7px 15px;
+}
+
+.timesheetSaveBtn > .cancleBtn:hover {
+  border: 1px solid #d83c38;;
+  color: #ffffff;
+  background: #d83c38;;
+  transition: all 0.8s ease-in-out;
+}
+
+.timesheetSaveBtn > .changesaveBtn {
+  border: 1px solid #077838;
+  color: #ffffff;
+  background: #077838;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Lexend Deca", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 7px 15px;
+}
+
+.timesheetSaveBtn > .changesaveBtn:hover {
+  border: 1px solid #077838;
+  background: #ffffff;
+  color: #077838;
+  transition: all 0.8s ease-in-out;
+}
+.aadhar {
+  padding: 1rem 2rem;
+}
+.docTitle {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.docName {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Lexend Deca", sans-serif;
+  color: #1e2224;
+}
+.docStatus {
+  display: flex;
+}
+.docStatus > img {
+  margin: 0.2rem;
+}
+.docStatus > p {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Lexend Deca", sans-serif;
+  color: #86878a;
+  text-transform: capitalize;
+}
+.docData {
+  width: 35rem;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+}
+.imageUrl {
+  font-size: 18px;
+}
+.docImage {
+  display: flex;
+  align-items: center;
+}
+.docUpImg {
+  margin: 0.2rem;
+  /* max-width: 100%; */
+  width: 4rem;
+  height: 4rem;
+}
+.browseBtn {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Lexend Deca", sans-serif;
+  color: #2b74da;
+  background: #e2e9f2;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+.viewBtn {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Lexend Deca", sans-serif;
+  color: #2b74da;
+  background: #e2e9f2;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  margin: 0 1rem;
+}
+.selectYear {
+  outline-offset: 0px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  width: 8rem;
+  height: 30px;
+  font-size: 16px;
+  font-family: "Lexend Deca", sans-serif;
+  color: #1e2224;
+  font-weight: 600;
+  margin: 2rem;
+}
+.slarySLipRow1 {
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.salaryTable {
+  margin: 2rem 3rem;
+  width: 90%;
+}
+.salaryDate {
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Lexend Deca", sans-serif;
+  color: #1e2224;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.downBtn {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Lexend Deca", sans-serif;
+  color: #2b74da;
+  background: #e2e9f2;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+.updateMsg {
+  color: red;
+  font-size: 15px;
+  font-family: "Lexend Deca";
+  text-transform: capitalize;
+  min-width: 150px;
+  font-weight: 600;
+  text-align: center;
+  animation: blink 1s linear infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.salaryTable {
+  margin: 2rem;
+}
+.sno {
+  width: 2rem;
+}
+.slaryMonth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  margin: 0 1rem;
+}
+@media (max-width: 700px) {
+  .userProfile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .personalDetails {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .detailsFirstSection > ul > li,
+  .detailsSecondSection > ul > li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .designation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+/* =========================new css of profile page  */
+
+.profile-heading{
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.profile-top-pic img{
+  width: 4.375rem;
+height: 4.375rem;
+border-radius: 50%;
+}
+
+.profile-top-pic{
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.profile-pic-btn{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.profile-pic-btn button{
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+}
+
+.profile-view-all{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-top: 1rem;
+
+}
+
+.profile-employee-heading{
+  border-radius: 0.3125rem 0.3125rem 0rem 0rem;
+border: 1px solid #DCDCDC;
+background: #F3F6FA;
+margin-left: 1rem;
+}
+
+.profile-emp-details{
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.profile-employee-info{
+  border-radius: 0rem 0rem 0.3125rem 0.3125rem;
+border-right: 1px solid #DCDCDC;
+border-bottom: 1px solid #DCDCDC;
+border-left: 1px solid #DCDCDC;
+background:#FFF;
+margin-left: 1rem;
+}
+
+.info-of-employee{
+  display: flex;
+  justify-content: start;
+  padding-top: 1rem;
+
+align-items: center;}
+
+.info-of-employee p:first-child{
+  color:#33475B;
+  margin-left: 1rem;
+}
+
+
+
+.profile-new-box{
+  margin-bottom: 1rem;
+  width:30rem;
+}
+
+.profile-left-side{
+  width:12rem;
+}
+
+.profile-employee-info .info-of-employee:last-child{
+  margin-bottom: 1rem;
+}
+
+.profile-new-email{
+  text-transform: none;
+}
+
+.profile-bottom-btn{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8fbf8;
+}
+
+.profile-bottom-btn button{
+  margin-right: 1rem;
+}

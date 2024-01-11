@@ -1,0 +1,512 @@
+select,
+input {
+    outline: none;
+}
+
+.notification-setting-fonts {
+    color: #1E2224;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02563rem;
+
+
+
+}
+
+button {
+    cursor: pointer;
+}
+
+input:focus {
+    border: 1px solid rgb(127, 126, 126);
+}
+
+
+.notification-setting-container {
+    width: 80vw;
+    height: auto;
+
+}
+
+.notification-heading {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.notification-active {
+    color: #2B74DA !important;
+    border: 1px solid #2B74DA !important;
+}
+
+.notification-setting-btn .notification-btn {
+    color: #33475B;
+    padding: 7px 15px;
+    border-radius: 0.3125rem;
+    background-color: #fff;
+    border: 1px solid transparent;
+    font-family: "Lexend Deca", sans-serif;
+
+}
+
+.notification-setting-btn {
+    margin-left: 1rem;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.05);
+    display: inline-flex;
+    margin-bottom: 2rem;
+}
+
+
+.notification-email-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 0.3125rem;
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.notification-email-section img {
+    margin-right: 1.25rem;
+}
+
+
+.envelope-section {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.notification-email-description p:last-child {
+    color: #33475B;
+    font-size: 0.75rem;
+
+}
+
+/* notification-slider  */
+
+.notification-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.notification-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.notification-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.notification-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.notification-slider {
+    background-color: #33c75a;
+}
+
+input:focus+.notification-slider {
+    box-shadow: 0 0 1px #33c75a;
+}
+
+input:checked+.notification-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.notification-slider.notification-round {
+    border-radius: 34px;
+}
+
+.notification-slider.notification-round:before {
+    border-radius: 50%;
+}
+
+/* notification-slider end  */
+
+
+.notify-me-about {
+    font-size: 1.125rem;
+    margin-left: 1rem;
+    margin-top: 2.75rem;
+    margin-bottom: 1.25rem;
+}
+
+
+/* search box section */
+
+
+
+.search-box {
+    position: relative;
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.search-input {
+    padding: 0.94rem 1rem;
+    padding-right: 5rem;
+    width: 19rem;
+    height: 2.25rem;
+    border: none;
+    border-radius: 0.3125rem;
+    background: #fff;
+    border-radius: 0.3125rem;
+    background: #F3F6FA;
+}
+
+.search-input::placeholder {
+    color: #909db0;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02563rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.94rem;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+    transform: translateY(-50%);
+    width: 1.25rem;
+    height: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.81rem;
+}
+
+.search-icon object {
+    width: 100%;
+    height: 100%;
+}
+
+.search-user-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* search ends here  */
+
+.notification-list ul {
+    list-style: none;
+    margin-left: 1rem;
+    margin-top: 1.38rem;
+}
+
+.notification-list ul li {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 1.44rem;
+
+}
+
+.notification-list ul li:last-child {
+    margin-bottom: 6rem;
+}
+
+
+/* notification table css  */
+
+
+.notification-list-table {
+    width: 100%;
+    margin-right: 1rem;
+
+}
+
+
+.notification-table {
+    margin-top: 1rem;
+
+
+}
+
+.notification-table table {
+    border-collapse: collapse;
+    border: 1px solid #DCDCDC;
+    background: #F8FAFB;
+    border: 1px solid red;
+
+}
+
+
+
+.notification-table th,
+.notification-table td {
+    padding: 0 0.5rem;
+    border: 1px solid #DCDCDC;
+    /* text-align: left; */
+}
+
+#notification-border {
+    border: 1px solid #DCDCDC;
+
+
+}
+
+.notification-table td {
+    background-color: #fff;
+}
+
+
+
+.notification-table th:nth-child(1) {
+    width: 1%;
+}
+
+
+
+
+.notification-table th {
+    background-color: #F8FAFB;
+
+}
+
+
+.notification-list-table th:first-child,
+.notification-list-table td:first-child {
+    border-right: 1px solid transparent;
+    border-radius: 0rem 0rem 0.3125rem 0.3125rem;
+}
+
+
+
+.notification-display {
+    display: grid;
+    grid-template-columns: 1.5% auto;
+
+}
+
+.arrow-img {
+    position: relative;
+    top: 0.1rem;
+    cursor: pointer;
+
+}
+
+/* .notification-table input[class="cb1"] {
+    transform: scale(1.5);
+    /* Increase checkbox size */
+/* cursor: pointer; */
+
+
+/* Hide the default checkbox */
+.custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Style the custom checkbox */
+.custom-checkbox .checkmark {
+    position: relative;
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 1px solid #dcdcdc;
+    background-color: transparent;
+    border-radius: 0.125rem;
+    cursor: pointer;
+}
+
+/* Create the tick mark using the :after pseudo-element */
+.custom-checkbox .checkmark:after {
+    content: "✓";
+    /* Unicode character for a checkmark */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Center the tick mark */
+    font-size: 14px;
+    color: #2B74DA;
+    opacity: 0;
+}
+
+/* Show the tick mark when the checkbox is checked */
+.custom-checkbox input:checked~.checkmark:after {
+    opacity: 1;
+}
+
+/* Change the background color of the checkbox when it is checked */
+.custom-checkbox input:checked~.checkmark {
+    background-color: #F3F6FA;
+    border: 1px solid #2B74DA;
+
+}
+
+/* Preserve original padding and margin on the label text */
+.custom-checkbox {
+    display: inline-flex;
+    align-items: center;
+    margin: 10px;
+}
+
+
+
+.notify-heading {
+    color: #1E2224;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02563rem;
+    text-transform: capitalize;
+    margin-bottom: 0.1rem;
+}
+
+.notify-note {
+    color: #33475B;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02563rem;
+}
+
+
+/* desktop css  */
+
+.desktop-notification {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+
+}
+
+.desktop-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#desktop-bell,
+#desktop-bell2 {
+    color: #1E2224;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02563rem;
+    text-transform: capitalize;
+    margin-top: 2.25rem;
+    margin-left: 4rem;
+
+}
+
+#desktop-note,
+#desktop-note2 {
+    color: #33475B;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02563rem;
+    margin-bottom: 2.25rem;
+    margin-left: 4rem;
+
+}
+
+#desktop-item:last-child {
+    padding-right: 1rem;
+}
+
+
+.notification-list-table {
+    width: 100%;
+    margin-right: 1rem;
+
+}
+
+
+.desktop-table {
+    margin-top: 1rem;
+
+
+}
+
+.desktop-table table {
+    border-collapse: collapse;
+    border: 1px solid #DCDCDC;
+    background: #F8FAFB;
+    border: 1px solid red;
+
+
+}
+
+
+
+.desktop-table td {
+    padding: 0 0.5rem;
+    border: 1px solid #DCDCDC;
+    /* text-align: left; */
+}
+
+
+.desktop-table td {
+    background-color: #fff;
+}
+
+#desktop-border2 {
+    border: 1px solid #dcdcdc;
+}
+
+.notification-list-name {
+    cursor: pointer;
+    color: #1E2224;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02563rem;
+}
+
+
+
+
+
+
+/* desktop css ends */

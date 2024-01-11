@@ -1,0 +1,304 @@
+.pipeline_container {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.pipeline_top {
+  border-radius: 0.3125rem;
+  border: 1px solid var(--border-color);
+  background: var(--white);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.pipeline_left_select {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.pipeline_select_heading {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+.pipeline-container {
+  position: relative;
+  display: inline-block;
+}
+
+.pipeline-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.pipeline-input {
+  padding-left: 30px; /* Space for the icon */
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.pipeline-dropdown {
+  width: 12rem;
+  font-weight: 400;
+}
+.stage-table {
+  margin-right: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.stage-data {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.stage-table td {
+  background-color: var(--white);
+}
+
+.stage-table th {
+  background-color: var(--th-background);
+  text-align: left;
+}
+
+.stage-table th:nth-child(1),
+.stage-table td:nth-child(1),
+.stage-table th:nth-child(2),
+.stage-table td:nth-child(2) {
+  border-right: 1px solid transparent;
+}
+
+.stage-table th:first-child {
+  width: 55%;
+}
+
+.stage-sales {
+  color: var(--font-light);
+}
+
+.stage-percent {
+  border-radius: 0.3125rem;
+  background: var(--input-background);
+  padding: 0.3rem;
+  border: none;
+  outline: none;
+}
+
+.stage-new-save{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stages-addition {
+  color: var(--ternary);
+  font-weight: 500;
+}
+
+.manage-note {
+  font-size: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.manage-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.manage-input {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.manage-input input {
+  cursor: pointer;
+}
+
+.manage-radio-section {
+  margin-top: 1.25rem;
+  cursor: pointer;
+}
+
+.manage-radio-label {
+  margin-left: 0.5rem;
+  text-transform: none;
+  cursor: pointer;
+}
+
+.manage-check-team {
+  margin-left: 1rem;
+}
+
+.manage-team-flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.manage-team-flex p {
+  margin-left: 0.5rem;
+}
+
+.manage-icon-round {
+  border-radius: 50%;
+  background-color: #e2e9f2;
+  padding: 0.2rem 0.4rem;
+  margin-left: 0.5rem;
+}
+
+.manage-icon-round img {
+  width: 1rem;
+  height: 1rem;
+  margin: 0 auto;
+}
+
+.manage-btn-box {
+  background-color: var(--th-background);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 25%;
+  margin-left: -1rem;
+}
+
+.manage-btn-box button:first-child {
+  margin-right: 1rem;
+}
+
+.manage-name {
+  font-weight: 500;
+}
+
+.manage-name span {
+  font-weight: 400;
+  text-transform: lowercase;
+  color: var(--font-light);
+}
+
+.edit-workflow-btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.view-workflow {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 1rem;
+  border-radius: 0.3125rem;
+  border: 1px solid var(--border-color);
+  margin-right: 1rem;
+  height: 600px; /* Set your desired height */
+}
+
+.edit-workflow-container {
+  border: 1px solid var(--border-color);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.workflow-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.workflow-modal {
+  position: absolute;
+  width: 25%;
+  height: 100vh;
+  background-color: var(--white);
+  border: 1px solid var(--border-color);
+  top: 0;
+  right: 0;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+.workflow-action-heading {
+  font-size: 1.125rem;
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.workflow-cross {
+  background-color: #fff;
+  border-radius: 0.3125rem;
+  border: 1px solid var(--border-color);
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  left: -50px;
+  top: 2%;
+}
+
+.workflow-status {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.workflow-status select {
+  margin-top: 0.5rem;
+  border-radius: 0.3125rem;
+  border: 1px solid var(--stroke, #dcdcdc);
+  background: var(--white, #fff);
+  padding: 0.5rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.workflow-status label, .workflow-status p{
+ font-size: 1rem;
+ font-weight: 500;
+}
+
+
+
+
+
+
+
+/* ===============================================================================drag and drop css */
+.item-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item-list li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 0 0 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.item-list li:hover {
+  background-color: #f0f0f0;
+}

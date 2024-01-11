@@ -1,0 +1,783 @@
+.cp-genral {
+  margin-top: 2rem;
+  padding-left: 0;
+  margin-right: 0;
+}
+
+.cp-lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.cp-lead select {
+  padding: 0;
+}
+
+.cp-lead label {
+  color: var(--font-light);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+
+.cp-input {
+  width: 28rem;
+  height: 2.6875rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cp-info {
+  font-size: var(--font-bigger);
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.cp-form-down {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto;
+  margin-bottom: 2rem;
+}
+
+.cp-save {
+  margin-left: 0.75rem;
+  margin-right: 1rem;
+}
+
+.cp-bottom {
+  background-color: var(--th-background);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 1.5rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+/* cp billings css starts */
+
+.cp-billings-tabs {
+  border-bottom: 1px solid var(--border-color);
+  margin-top: 2rem;
+}
+
+.cp-billings-tabs button {
+  padding: 0.5rem 0.62rem;
+  margin-right: 0.44rem;
+  background-color: var(--white);
+  border: none;
+  cursor: pointer;
+  font-size: var(--font-medium);
+}
+
+.cp-active {
+  color: var(--ternary);
+  border-bottom: 1px solid var(--ternary) !important;
+}
+
+/* cp billings css ends */
+
+/* cp bills tab starts here  */
+
+.bills-top-dropdown {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.bills-date,
+.bills-all {
+  padding: 7px 15px;
+  border-radius: 0.3125rem;
+  border: 1px solid var(--border-color);
+  background: var(--white);
+  cursor: pointer;
+}
+
+.bills-all {
+  margin-left: 0.94rem;
+}
+
+.bills-all .fa-sharp,
+.bills-date .fa-sharp {
+  margin-left: 0.94rem;
+}
+
+.bills-summary-heading {
+  font-size: var(--font-big);
+  font-weight: 600;
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 1.19rem;
+}
+
+.bills-table {
+  margin-bottom: 3rem;
+}
+
+.bills-table th {
+  text-align: left;
+  padding: 0.5rem 1rem;
+  width: 33.33%;
+}
+
+.bills-top {
+  color: var(--font-light);
+  font-size: var(--font-small);
+  margin-bottom: 0.2rem;
+}
+
+.bills-down {
+  font-size: var(--font-medium);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.bills-down:last-child img {
+  margin-right: 0.31rem;
+}
+
+.bills-table td {
+  background-color: var(--th-background);
+}
+
+.bills-usd {
+  color: var(--font-lighter);
+  font-size: var(--font-small);
+  text-align: right;
+}
+
+.bills-dollar {
+  text-align: right;
+}
+
+.bills-table td:nth-child(1),
+.bills-table td:nth-child(2) {
+  border-right: 1px solid transparent;
+}
+
+.bills-tr {
+  background-color: var(--white) !important;
+}
+
+.bills-estimate {
+  text-align: right;
+  border-bottom: 1px solid transparent !important;
+  font-size: var(--font-bigger);
+  padding-top: 1.5rem;
+}
+
+.bills-estimate span {
+  font-weight: 500;
+}
+
+.bills-table tr:nth-child(5) {
+  border-bottom: 1px solid transparent;
+}
+
+.bills-pay {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: var(--font-medium);
+}
+
+/* cp bills tab ends here  */
+
+/* payment preference tab starts here  */
+
+.pp-button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.pp-button button {
+  margin-left: 1rem;
+}
+
+.pp-master-card {
+  border-radius: 0.3125rem;
+  background: var(--card-color);
+  width: 15.75rem;
+  height: auto;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+.master-card-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pp-cards {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.pp-atm-no {
+  margin-top: 1.25rem;
+  margin-bottom: 1.81rem;
+}
+
+.pp-card-no {
+  font-size: var(--font-big);
+}
+
+.pp-card-no span {
+  margin-right: 1.25rem;
+  letter-spacing: 0.0625rem;
+}
+
+.pp-card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pp-card-up {
+  font-size: var(--font-smaller);
+  color: var(--font-light);
+  margin-bottom: 0.1rem;
+  text-transform: uppercase;
+}
+
+.pp-card-down {
+  font-size: var(--font-small);
+  font-weight: 600;
+}
+
+.white-circle {
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green-circle {
+  width: 0.625rem;
+  height: 0.625rem;
+  background-color: var(--primary);
+  border-radius: 50%;
+}
+
+/* payment preference tab ends here  */
+
+/* transaction section starts here  */
+
+.transaction-top-date {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 1rem;
+}
+
+.transaction-date {
+  margin-right: 2rem;
+}
+
+.transaction-start-date,
+.transaction-end-date {
+  color: var(--font-light);
+  margin-bottom: 0.5rem;
+}
+
+.transaction-tab-table {
+  margin-top: 2rem;
+}
+
+.transaction-tab-table th {
+  text-align: left;
+  padding: 0;
+  padding-left: 1rem;
+  background-color: var(--th-background);
+}
+
+.transaction-tab-table th:nth-child(4),
+.transaction-tab-table td:nth-child(4) {
+  width: 22%;
+}
+
+.transaction-tab-table th:nth-child(1),
+.transaction-tab-table td:nth-child(1),
+.transaction-tab-table th:nth-child(2),
+.transaction-tab-table td:nth-child(2),
+.transaction-tab-table th:nth-child(3),
+.transaction-tab-table td:nth-child(3),
+.transaction-tab-table th:nth-child(4),
+.transaction-tab-table td:nth-child(4),
+.transaction-tab-table th:nth-child(5),
+.transaction-tab-table td:nth-child(5),
+.transaction-tab-table th:nth-child(6),
+.transaction-tab-table td:nth-child(6) {
+  border-right: 1px solid transparent;
+}
+
+.transaction-tab-table td:nth-child(2) {
+  color: var(--ternary);
+}
+
+.transaction-tab-table td:nth-child(2) span {
+  margin-right: 0.5rem;
+}
+
+/* transaction section ends here  */
+
+/* currency tab section starts here  */
+
+.currency-btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.currency-tab-table table th {
+  text-align: start;
+  font-size: var(--font-small);
+  background-color: var(--th-background);
+}
+
+.currency-tab-table table td {
+  background-color: var(--white);
+}
+
+.currency-tab-table table th:nth-child(1),
+.currency-tab-table table th:nth-child(2),
+.currency-tab-table table td:nth-child(1),
+.currency-tab-table table td:nth-child(2) {
+  border-right: 1px solid transparent;
+}
+
+.currency-tab-dollar {
+  margin-right: 10rem;
+}
+
+.currency-tab-default {
+  padding: 7px 15px;
+  border-radius: 0.3125rem;
+  border: 1px solid var(--ternary);
+  background: var(--white);
+  cursor: pointer;
+}
+
+/* currency tab section ends here */
+
+/* label tabs starts  */
+
+.label-tab-leads {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.label-tab-leads img {
+  margin-right: 0.5rem;
+}
+
+.label-tab-leads p {
+  font-size: 1rem;
+}
+
+.label-tab-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.leads-tab-table th {
+  padding: 0;
+  margin: 0;
+  background-color: var(--th-background);
+  text-align: center;
+  font-size: 0.75rem;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.leads-tab-table td {
+  text-align: center;
+  background-color: var(--white);
+}
+
+.leads-tab-table td:nth-child(3) {
+  position: relative;
+}
+
+.leads-tab-table th:nth-child(1),
+.leads-tab-table td:nth-child(1),
+.leads-tab-table th:nth-child(2),
+.leads-tab-table td:nth-child(2),
+.leads-tab-table th:nth-child(3),
+.leads-tab-table td:nth-child(3),
+.leads-tab-table th:nth-child(4),
+.leads-tab-table td:nth-child(4),
+.leads-tab-table th:nth-child(5),
+.leads-tab-table td:nth-child(5),
+.leads-tab-table th:nth-child(6),
+.leads-tab-table td:nth-child(6) {
+  border-right: 1px solid transparent;
+}
+
+.leads-tab-table th:nth-child(1) {
+  width: 5%;
+}
+
+.leads-tab-table th:nth-child(2) {
+  width: 10%;
+}
+
+.leads-tab-table th:nth-child(3) {
+  width: 10%;
+}
+
+.leads-tab-table th:nth-child(4) {
+  width: 10%;
+}
+
+.leads-tab-table th:nth-child(5) {
+  width: 10%;
+}
+
+.leads-tab-table th:nth-child(6) {
+  width: 10%;
+}
+
+.leads-tab-table th:nth-child(7) {
+  width: 10%;
+}
+
+.leads-tab-color {
+  width: 1.375rem;
+  height: 1.375rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.leads-tab-table th:nth-child(2),
+.leads-tab-table td:nth-child(2) {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.label-update-btn {
+  margin-right: 1rem;
+}
+
+/* label tabs ends */
+
+/* contact support tab starts */
+
+.contact-support-heading {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-tab-label {
+  color: var(--font-light);
+  margin-bottom: 0.1rem;
+}
+
+.contact-tab-input {
+  margin-bottom: 0.7rem;
+}
+
+.contact-tab-fields {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.contact-tab-textarea {
+  height: 3.5rem;
+  outline: none;
+}
+
+.contact-tab-select {
+  padding: 0;
+  width: 6.0625rem;
+}
+
+.contact-tab-mobile {
+  width: 21.4375rem;
+}
+
+.contact-browse {
+  display: flex;
+  align-items: center;
+}
+
+.contact-browse-btn {
+  background: var(--input-background);
+  border: none;
+  outline: none;
+  color: var(--ternary);
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 4%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.upload-file-name {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--ternary);
+}
+
+.contact-support-button {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0.5rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.contact-tab-save-btn {
+  margin-left: 1rem;
+}
+
+.contact-type-of-issue {
+  padding: 0;
+  height: 2rem;
+  margin-bottom: 0.7rem;
+}
+
+/* contact support tab ends */
+
+/* service support start  */
+
+.ss-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.service-req-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-support-table th {
+  background-color: var(--th-background);
+  text-align: left;
+  padding: 0;
+  padding-left: 1rem;
+  font-size: var(--font-small);
+}
+
+.service-support-table td {
+  text-align: left;
+}
+
+.service-support-table td:nth-child(1),
+.service-support-table td:nth-child(2),
+.service-support-table td:nth-child(3),
+.service-support-table td:nth-child(4),
+.service-support-table td:nth-child(5),
+.service-support-table td:nth-child(6),
+.service-support-table td:nth-child(7),
+.service-support-table td:nth-child(8),
+.service-support-table td:nth-child(9),
+.service-support-table th:nth-child(9) {
+  border-right: 1px solid transparent;
+}
+/* service support ends */
+
+/* label pop up starts */
+
+.label-input {
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.genral-circle {
+  width: 1.375rem;
+  height: 1.375rem;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+  cursor: pointer;
+}
+
+.circle1 {
+  background-color: #4164d4;
+}
+.circle2 {
+  background-color: #7fd6b6;
+}
+.circle3 {
+  background-color: #fae021;
+}
+.circle4 {
+  background-color: #d63033;
+}
+.circle5 {
+  background-color: #a0419d;
+}
+.circle6 {
+  background-color: #e4e5e5;
+}
+.circle7 {
+  background-color: #9a592b;
+}
+.circle8 {
+  background-color: #ffad58;
+}
+.circle9 {
+  background-color: #6b6e6f;
+}
+.circle10 {
+  background-color: #f88fbe;
+}
+
+.circle-flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.no-label-found {
+  text-align: center;
+  font-size: var(--font-bigger);
+}
+
+/* label pop up ends */
+
+/* service request container  */
+
+.service-req-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.service-req-cross-btn {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.headphone-btn {
+  margin-bottom: -1.5rem !important;
+  margin-top: 1.5rem;
+}
+
+.service-request-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  font-family: "Lexend Deca";
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.service-request-heading {
+  font-size: var(--font-bigger);
+  font-weight: 600;
+}
+
+.service-req-modal-box {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  width: 31rem;
+  height: 38rem;
+  position: relative;
+  overflow-y: auto;
+}
+
+.label-refresh-icon {
+  margin-left: 0.5rem;
+}
+/* service request container ends */
+
+/* audit table  */
+
+.audit-table {
+  margin-top: 2rem;
+}
+
+.audit-table table th {
+  background-color: var(--th-background);
+  text-align: left;
+  font-size: var(--font-small);
+}
+
+.audit-table table td:first-child {
+  border-right: 1px solid transparent;
+}
+/* audit table ends */
+
+.password-refresh {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.support-no-ticket-found {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.edit-service-box {
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.add-call input {
+  color: #1e2224;
+  font-family: Lexend Deca;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  cursor: pointer;
+  height: 2.625rem;
+  border-radius: 0.3125rem;
+  background: #f4f5f9;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+  outline: none;
+  border: none;
+  margin-bottom: 2rem;
+}

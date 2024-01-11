@@ -1,0 +1,206 @@
+
+.security-container {
+    width: 80vw;
+    height: auto;
+    padding-left: 1rem;
+}
+
+.security-fonts {
+    color: #1E2224;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02563rem;
+    text-transform: capitalize;
+
+}
+
+.security-heading {
+    margin-top: 1rem;
+    margin-bottom: 2.25rem;
+}
+
+.security-password {
+    color: #1E2224;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.security-note {
+    color: #33475B;
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
+
+}
+
+.confirm-security-password {
+    color: #33475B;
+    font-size: 0.875rem;
+}
+
+.forget-security-password {
+    color: #2B74DA;
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    cursor: pointer;
+
+}
+
+.type-security-password {
+    border-radius: 0.3125rem;
+    border: 1px solid #DCDCDC;
+    background: #F3F6FA;
+    padding: 0.75rem;
+    width: 28rem;
+    margin-bottom: 2rem;
+    font-size: 0.6rem;
+    cursor: pointer;
+}
+
+.type-security-password:focus {
+    outline: none;
+    border: 1px solid grey;
+    letter-spacing: 8px;
+}
+
+.security-new-password {
+    color: #33475B;
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+
+}
+
+.security-show-password {
+    margin-left: 0.5rem;
+    color: #2B74DA;
+    font-size: 0.75rem;
+    cursor: pointer;
+
+}
+
+.security-list ul {
+    list-style: none;
+    color: #33475B;
+    font-size: 0.875rem;
+    letter-spacing: -0.02563rem;
+    text-transform: capitalize;
+
+}
+
+.security-list ul li {
+    margin-bottom: 1.38rem;
+}
+
+.security-rule{
+    color:#33475B;
+    font-family: "Lexend Deca", sans-serif;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5625rem; /* 178.571% */
+letter-spacing: -0.02563rem;
+text-transform: capitalize;
+}
+
+.security-check {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.white-tick {
+    width: 1.125rem;
+    height: 1.125rem;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 0.69rem;
+}
+
+
+
+.security-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.security-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.security-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.security-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.security-slider {
+    background-color: #33c75a;
+}
+
+input:focus+.security-slider {
+    box-shadow: 0 0 1px #33c75a;
+}
+
+input:checked+.security-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.security-slider.security-round {
+    border-radius: 34px;
+}
+
+.security-slider.security-round:before {
+    border-radius: 50%;
+}
+
+.security-authentication {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 2.94rem;
+    margin-bottom: 0.94rem;
+}
+
+.security-two-factor {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+
+.security-bottom{
+    color:#33475B;
+font-size: 0.75rem;
+margin-bottom: 2rem;
+
+}

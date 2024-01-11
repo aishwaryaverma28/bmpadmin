@@ -1,0 +1,329 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/* css variables */
+
+:root {
+  --primary: #077838;
+  --secondary: #d83c38;
+  --ternary: #2b74da;
+  --quadrant: #fae021;
+  --font-dark: #1e2224;
+  --font-light: #33475b;
+  --font-lighter: #909db0;
+  --border-color: #dcdcdc;
+  --card-color: #e6ebff;
+  --input-background: #f3f6fa;
+  --checkbox-background: #d9d9d9;
+  --th-background: #f8fafb;
+  --white: #ffffff;
+
+  --font-family1: "Lexend Deca", sans-serif;
+
+
+  --font-medium: 1rem;
+  --font-normal: 0.875rem;
+  --font-small: 0.75rem;
+  --font-smaller: 0.625rem;
+  --font-big: 1.125rem;
+  --font-bigger: 1.25rem;
+  --font-large: 1.5rem;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #2b74da;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  width: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  color: #000;
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  color: #1e2224;
+  text-transform: capitalize;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: "Lexend Deca", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "Lexend Deca", sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #1e2224;
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  /* Removes the default focus outline */
+  border: 1px solid #dcdcdc;
+  box-shadow: 0 0 5px #dcdcdc;
+  /* Adds a blue box shadow when input is focused */
+}
+
+.common-fonts {
+  color: #1e2224;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: none;
+}
+
+.common-save-button {
+  border-radius: 0.3125rem;
+  background: #077838;
+  padding: 7px 15px;
+  color: #fff;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+}
+
+.common-save-button:hover {
+  border: 1px solid #077838;
+  color: #077838;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.common-active {
+  color: #2b74da !important;
+  border: 1px solid #2b74da !important;
+  background-color: #fff;
+  border-radius: 0.3125rem;
+  padding: 7px 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.common-input,.common-select {
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #f3f6fa;
+  padding: 0.7rem;
+  cursor: pointer;
+  width: 28rem;
+  height: 2rem;
+}
+
+.common-select{
+  padding:0;
+}
+
+.common-white-button {
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  padding: 7px 15px;
+  color: #1e2224;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+
+.common-white-button:hover {
+  color: #fff;
+  border: 1px solid #d83c38;
+  background-color: #d83c38;
+  transition: all 0.5s ease-in-out;
+}
+.common-white-green-button {
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  padding: 7px 15px;
+  color: #1e2224;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+
+.common-white-green-button:hover {
+  color: #fff;
+  border: 1px solid #077838;
+  background-color: #077838;
+  transition: all 0.5s ease-in-out;
+}
+.common-white-blue-button {
+  border-radius: 0.3125rem;
+  border: 1px solid var(--ternary);
+  background: #fff;
+  padding: 7px 15px;
+  color: var(--ternary);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+
+.common-white-blue-button:hover {
+  color: #fff;
+  border: 1px solid  var(--ternary);
+  background-color:  var(--ternary);
+  transition: all 0.5s ease-in-out;
+}
+
+.common-delete-button {
+  border-radius: 0.3125rem;
+  background: #d83c38;
+  padding: 7px 15px;
+  color: #fff;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+}
+
+.common-delete-button:hover {
+  border: 1px solid #d83c38;
+  color: #d83c38;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.common-inactive-button {
+  border-radius: 0.3125rem;
+  border: 1px solid #f3f6fa;
+  background: #f3f6fa;
+  padding: 7px 15px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+  color: #909daf !important;
+}
+.bmpSiteBtn{
+  border-radius: 40px;
+background: #2b74da;
+padding: 5px 8px;
+border: none;
+color: white;
+}
+
+.email-case {
+  text-transform: lowercase;
+}
+.popup-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+
+.left-space{
+  margin-left: 1rem;
+}
+
+.pound{
+  width: 0.7rem;
+}
+
+.welcome-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.light-color{
+  color: var( --font-light);
+}
+
